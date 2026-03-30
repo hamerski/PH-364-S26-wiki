@@ -1,0 +1,18 @@
+
+site_name: Class Wiki - PH364 Spring 2026
+site_url: https://<your-username>.github.io/<your-repo>/
+repo_url: https://github.com/<your-username>/<your-repo>
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: true
+      kernel_name: python3
+
+
+nav:
+  - Home: index.md
