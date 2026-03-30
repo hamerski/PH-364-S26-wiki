@@ -6,9 +6,6 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  icon:
-    tag:
-      default: <icon>
 
 plugins:
   - search
