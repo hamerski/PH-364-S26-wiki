@@ -20,4 +20,5 @@ plugins:
 # Don't edit above this line #
 nav:
   - Home: home.md
+  - Tags: tags.md
   - Contribute: contribute.md
