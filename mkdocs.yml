@@ -6,14 +6,18 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  icon:
+    tag:
+      default: <icon>
 
 plugins:
   - search
   - mkdocs-jupyter:
       execute: true
       kernel_name: python3
+  - tags
 
-
+# Don't edit above this line #
 nav:
   - Home: home.md
   - Contribute: contribute.md
