@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://oregonstate-physics.github.io/&lt;your-repo&gt;/contribute/</loc>
+         <loc>https://&lt;your-username&gt;.github.io/&lt;your-repo&gt;/contribute/</loc>
          <lastmod>2026-03-30</lastmod>
     </url>
     <url>
-         <loc>https://oregonstate-physics.github.io/&lt;your-repo&gt;/home/</loc>
+         <loc>https://&lt;your-username&gt;.github.io/&lt;your-repo&gt;/home/</loc>
          <lastmod>2026-03-30</lastmod>
     </url>
 </urlset>
