@@ -1,9 +1,8 @@
-```
 ---
 tags:
   - tutorial
 ---
-```
+
 # Contribution
 
 1. Create a branch or fork the repo.
