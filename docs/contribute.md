@@ -33,17 +33,16 @@ Simply start your contribution with the same 3 lines at the very top, and write 
 Before writing your own tags, check the wiki to see if there are existing tags you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`.
 
 ## Adding a Page
-
-1. Create a branch to work in on your machine.
-2. Add a Markdown page under docs/ or a notebook under docs/notebooks/.
-3. Update mkdocs.yml by adding your page to the nav section like so:
+- Create a branch to work in on your machine.
+- Add a Markdown page under docs/ or a notebook under docs/notebooks/.
+- Update mkdocs.yml by adding your page to the nav section like so:
 ```
 nav:
   - Page Title: page_file.md
 ```
 this will add a link to the document in the sidebar.
 
-4. Commit & push your branch to save your changes to the github server.
-5. When you're ready to publish your page to the class wiki create a pull-request (PR).
-7. After your PR is merged it will automatically update the website with your changes.
-8. Check that the page has been added or updated properly.
+- Commit & push your branch to save your changes to the github server.
+- When you're ready to publish your page to the class wiki create a pull-request (PR).
+- After your PR is merged it will automatically update the website with your changes.
+- Check that the page has been added or updated properly.
