@@ -10,8 +10,9 @@ theme:
 plugins:
   - search
   - mkdocs-jupyter:
-      execute: true
+      execute: True
       kernel_name: python3
+      include_source: True
   - tags
 
 # Don't edit above this line #
