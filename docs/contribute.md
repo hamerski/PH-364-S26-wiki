@@ -35,12 +35,12 @@ Before writing your own tags, check the wiki to see if there are existing tags y
 ## Adding a Page
 - Create a branch to work in on your machine.
 - Add a Markdown page under docs/ or a notebook under docs/notebooks/.
-- Update mkdocs.yml by adding your page to the nav section like so:
-```
-nav:
-  - Page Title: page_file.md
-```
-this will add a link to the document in the sidebar.
+%- Update mkdocs.yml by adding your page to the nav section like so:
+%```
+%nav:
+%  - Page Title: page_file.md
+%```
+%this will add a link to the document in the sidebar.
 
 - Commit & push your branch to save your changes to the github server.
 - When you're ready to publish your page to the class wiki create a pull-request (PR).
