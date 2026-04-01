@@ -20,4 +20,4 @@ nav:
   - Home: home.md
   - Tags: tags.md
   - Contribute: contribute.md
-  - A python notebook: ICA-1.2.ipynb
+  - A python notebook: notebooks/ICA-1.2.ipynb
