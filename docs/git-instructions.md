@@ -7,7 +7,7 @@ tags:
 
 ## Cheat-Sheet
 
-![git-cheat-sheet](./docs/images/Git-Commands-Cheat-Sheet.png)
+![git-cheat-sheet](docs/images/Git-Commands-Cheat-Sheet.png)
 
 ### git add
 Type 
