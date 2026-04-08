@@ -94,5 +94,5 @@ A PR is a request to the project maintainer to merge changes you made in a fork 
 gh pr create
 ```
 
-in the terminal to create a pr.
+in the terminal to create a pr. By default this will create a PR merging your current branch into the upstream main.
 
