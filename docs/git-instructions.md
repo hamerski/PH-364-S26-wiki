@@ -7,7 +7,7 @@ tags:
 
 ## Cheat-Sheet
 
-![git-cheat-sheet](docs/images/Git-Commands-Cheat-Sheet.png)
+![git-cheat-sheet](https://github.com/hamerski/PH-364-S26-wiki/blob/main/docs/images/Git-Commands-Cheat-Sheet.png?raw=true)
 
 ### git add
 Type 
