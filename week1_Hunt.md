@@ -1,3 +1,7 @@
+---
+tags: 
+ - model fitting
+---
 Something that I already know about computational physics that I learned in PH 264 is its uses for comparing fit of models by way of checking the
 reduced chi^2 value of a given theoretical fit to the experimentally collected data. Comparing fit of different models to experimental data seemed 
 to be the big takeaway from PH 264, so I think that it is pretty relevant to computational physics and what we will likely be using computational
