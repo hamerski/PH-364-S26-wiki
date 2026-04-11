@@ -12,5 +12,3 @@ A reduced chi^2 value closer to one means the model fits the data better, and on
 models from 0.8 - 1.2 reduced chi^2 values will generally show correlation with the experimental data. Numbers much, much larger than 1 for a reduced 
 chi^2 value mean that the model does not correlate to the data and cannot be used to draw conclusions about the behavior of the measured system.
 
-Carter Hunt
-
