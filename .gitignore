@@ -1,3 +1,18 @@
-# ipynb Snapshots #
-###################
+# Temp files #
+##############
+*.swp
+*.temp
+*.tmp
+tmp/
+
+# Jupyter Notebook checkpoints #
+################################
 .ipynb_checkpoints/
+
+# Caches #
+##########
+.cache/
+
+# MkDocs site builds #
+######################
+./site/
