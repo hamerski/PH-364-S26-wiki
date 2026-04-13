@@ -14,6 +14,9 @@ plugins:
       kernel_name: python3
       include_source: True
   - tags
+  - redirects:
+      redirect_maps:
+        'index.md': 'home.md'
 
 # Don't edit above this line #
 nav:
