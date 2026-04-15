@@ -1,3 +1,7 @@
+---
+tags: 
+Wiki Contribution 1 Push (week 2)
+--- Greta Varga
 Numerical Modeling of Exponential Decay
 
 One of the biggest concepts in computational physics is using numerical methods to create models for physical systems,
