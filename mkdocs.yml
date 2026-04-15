@@ -22,7 +22,5 @@ plugins:
 nav:
   - Home: home.md
   - Tags: tags.md
-  - Contribute: contribute.md
+  - Contribution Guide: contribute.md
   - Git Commands: git-instructions.md
-  - In-class Assignment 1.2: ICA-1.2.ipynb
-  - HTML Test: ICA-1.2.html
