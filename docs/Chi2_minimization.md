@@ -1,3 +1,7 @@
+---
+tags: 
+ - model fitting
+---
 ```python
 #An important concept in computational physics is using numerical methods to analysize real world data with theoretical models
 #An example of a common practice in doing this is determining the most likely numerical value of a constant that is predidcted in a model when accounting for uncertainties
