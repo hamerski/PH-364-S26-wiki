@@ -1,8 +1,6 @@
 ---
 tags: 
- - Chisqr fitting
- - ReducedChiSqExample
- - Chi2 minimization
+ - model fitting
 ---
 
 Owen Sliger Week 1-3 Wiki Contribution
