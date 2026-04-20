@@ -1,9 +1,9 @@
-Stephanie Poole
-
 ---
 tags:
-    - python features
+- python features
 ---
+
+Name: Stephanie Poole
 
 ## Concept: Libraries
 
