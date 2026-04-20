@@ -1,6 +1,6 @@
 
 site_name: Class Wiki - PH364 Spring 2026
-site_url: https://<your-username>.github.io/<your-repo>/
+site_url: !ENV [PREVIEW_URL, 'https://<your-username>.github.io/<your-repo>/']
 repo_url: https://github.com/hamerski/PH-364-S26-wiki
 edit_uri: edit/main/docs/
 
@@ -14,12 +14,13 @@ plugins:
       kernel_name: python3
       include_source: True
   - tags
+  - redirects:
+      redirect_maps:
+        'index.md': 'home.md'
 
 # Don't edit above this line #
 nav:
   - Home: home.md
   - Tags: tags.md
-  - Contribute: contribute.md
+  - Contribution Guide: contribute.md
   - Git Commands: git-instructions.md
-  - In-class Assignment 1.2: ICA-1.2.ipynb
-  - HTML Test: ICA-1.2.html
