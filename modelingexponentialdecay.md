@@ -1,4 +1,10 @@
 ---
+tags:
+  - computational physics
+  - exponential decay
+  - modeling
+---
+---
 tags: 
 Wiki Contribution 1 Push (week 2)
 --- Greta Varga
