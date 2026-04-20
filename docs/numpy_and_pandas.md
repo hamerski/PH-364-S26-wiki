@@ -2,7 +2,7 @@ Stephanie Poole
 
 ---
 tags:
-    - wiki contribution
+    - python features
 ---
 
 ## Concept: Libraries
@@ -24,5 +24,8 @@ dampresistance = np.linspace(0, 2500, 5000)
 dampamplitude = dampRTheory(dampresistance)`
 I used `np.linspace` to define a range of 5000 evenly spaced resistance values from x = 0 until x = 2500. I also used `np.e` which allowed me to make calculations with the mathematical "e" irrational number.
 
-## Commit Message:
+## Commit Message - Week 1:
 Week 1 wiki contribution -Stephanie Poole
+
+## Commit Message - Week 3:
+Updating name from "wiki_poolest_week1.md" to "numpy_and_pandas.md", updating tag to "python features" -Stephanie Poole
