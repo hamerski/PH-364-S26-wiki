@@ -6,7 +6,9 @@ During my studies at South Seattle Community College, I learned how to use Pytho
 
 One of the main concepts I learned is **modularization**. This means breaking a complicated physics problem into smaller, manageable parts. Instead of trying to solve everything at once, I can write separate functions for each part of the problem and then combine them to get the final answer. This approach not only makes the code cleaner but also helps me think clearly about the physics concepts involved.
 
-Another important theme is **visualization**. Graphing physical quantities like motion, forces, or energy makes it much easier to see patterns, understand relationships, and check if the calculations make sense.
+Another important theme is **visualization/modeling**. Graphing physical quantities like motion, forces, vector fields, or energy makes it much easier to see patterns, understand relationships, and check if the calculations make sense.
+
+**graphing**  Also once physics get more abstact and complicatedsuch as waveform. Instead of seeing at a nasty equation I could be able to plot each function and point out key features. It becomes harder to visualize graphs and being able to sketch by hand Python makes that process easier.
 
 ## Example: Graphing a Simple Physics Problem
 
@@ -17,7 +19,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Constants
-g = 9.8  # acceleration due to gravity (m/s^2)
+g = 9.8  # acceleration due to gravity 
 t = np.linspace(0, 5, 100)  # time array from 0 to 5 seconds
 
 # Position and velocity calculations
