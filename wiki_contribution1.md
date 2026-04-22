@@ -1,5 +1,0 @@
-One important skill that was talked alot about in PH264 was statistical uncertainty and how closely a model is to a measured result. One method of doing this is to find the Chi Sqaured of a model by comparing every theoretical value of the model to the measured value for every changing variable. This can be a useful tool when creating new models to test if they are a good representation of the properties we are trying to model. 
-
-For example, if you have a such as A*sin(t), where A and t are variables, and you wanted to see how close your model was to some measured phenomena, you would use the Chi Squared calculation in a nested for loop for both A and t. Then, find the minimum chi sqaured and plot a graph to see how dependant each variable is. By calculating the reduced chi squared, a numerical value can be found that represents how close the minimum chi squared is to the real values.
-
-To calculate the Chi squared, it is neccesarry to understand for loops, 
