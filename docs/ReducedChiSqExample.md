@@ -1,6 +1,6 @@
 ---
 tags:
- - Reduced Chi^2
+ - model fitting
 ---
 Testing the validity of models is quite important. It allows us to find models to represent the real world
 phenomenon. In order to test the validity of a model we use something called the Reduced Chi^2.
