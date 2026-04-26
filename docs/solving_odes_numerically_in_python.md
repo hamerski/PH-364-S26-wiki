@@ -1,5 +1,3 @@
-# Solving ODEs Numerically in Python
-
 ---
 tags: 
  - ode
@@ -8,6 +6,8 @@ tags:
  - numenrical integration
  - scipy
 ---
+
+# Solving ODEs Numerically in Python
 
 SciPy is a powerful library in Python that allows us to solve ordinary differential equations (ODEs) or systems of them numerically with the functions that it provides. 
 

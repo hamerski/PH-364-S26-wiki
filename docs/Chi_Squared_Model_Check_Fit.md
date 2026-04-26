@@ -1,9 +1,10 @@
 ---
 tags: 
  - model fitting
+ - Nested loops
+ - Multi-Variable
+ - guide
 ---
-
-Owen Sliger Week 1-3 Wiki Contribution
 
 One important skill discussed in PH264 was statistical uncertainty and how closely a model is to a measured result. One method of comparing models and finding uncertainty is to calculate the Chi Sqaured of the model, which compares generated theoretical values for every variable of the model to the experimental values. This can be a useful tool when creating new models to test if they are a good representation of the properties we are trying to model. 
 
