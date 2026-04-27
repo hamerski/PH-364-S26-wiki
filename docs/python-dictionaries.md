@@ -1,11 +1,12 @@
 ---
 tags:
   - python features
+  - data structure
 ---
 
 ## Python Dictionaries
 
-A useful tool for programming is being able to look up information (a variable) by some identifier called a key. For examle, a list or array allows you to store data in "bins" indexed by integers. To retrieve specific data from a list or array, you simply need to know the number of its position within the list. However, it can also be very useful to have a data structure where each piece of data is indexed by some other type of variable, like a string.
+A useful tool for programming is being able to look up information (a variable) by some identifier called a key. For example, a list or array allows you to store data in "bins" indexed by integers. To retrieve specific data from a list or array, you simply need to know the number of its position within the list. However, it can also be very useful to have a data structure where each piece of data is indexed by some other type of variable, like a string.
 
 For a small example, let us assume you want to find the mass of a planet in our solar system by the name of the planet. One way to do this using only lists would be to make a list of planet names and a list of masses, ordered so that the name and mass of each planet have the same index in their respective lists. Then to look up the mass of a specific planet, you could search the list of names to get its numerical index, and use that to find the correct mass. An implementation of this method might look like this:
 
@@ -39,9 +40,43 @@ planet_masses = {
   'Neptune': 1.024e26,
 }
 
+(Note that the two seperate lists have been combined into one dictionary, where entries are grouped as key-value pairs).
+
 def find_planet_mass(planet_name):
   return planet_masses.get(planet_name)
 ```
+
+To add entries to a dictionary, we can use the .update() method, either to merge with another existing dictionary, or with an iterable of key-value pairs. An implementation of the .update() method:
+
+``` python
+planet_masses = {
+  'Mercury': 3.301e23,
+  'Venus':   4.867e24,
+  'Earth':   5.972e24,
+  'Mars':    6.417e23,
+ }
+ 
+ new_planet_masses = {
+  'Jupiter': 1.899e27,
+  'Saturn':  5.685e26,
+  'Uranus':  8.682e25,
+  'Neptune': 1.024e26,
+}
+
+planet_masses.update(new_planet_masses)
+
+planet_masses = {
+  'Mercury': 3.301e23,
+  'Venus':   4.867e24,
+  'Earth':   5.972e24,
+  'Mars':    6.417e23,
+  'Jupiter': 1.899e27,
+  'Saturn':  5.685e26,
+  'Uranus':  8.682e25,
+  'Neptune': 1.024e26,
+}
+```
+
 
 Here is a list of useful syntax when working with dictionaries:
  - Initialization:    &nbsp; `dict = { key1: value1, key2: value2 }`
