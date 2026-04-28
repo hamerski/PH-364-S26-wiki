@@ -13,9 +13,3 @@ Linux is a powerful and efficient tool to navigate through file directories in y
 - ```cd```: Allows the user to navigate through file directories. Two important applications of this command are as follows: ```cd ..``` moves back one directory. ```cd {your/absolute/file/path/here}``` will navigate exactly to the directory specified no matter what directory the user is currently in.
 - ```ls```: Displays all of the files and folders in the current directory.
 - ```pwd```: Displays the path of the directory the user is currently in.
-
-## Edit History:
-
-- Added 'guide' tag
-- Added brief example section for how Linux works
-- Separated sections of the write-up into a "concept background" and "concept showcase"
