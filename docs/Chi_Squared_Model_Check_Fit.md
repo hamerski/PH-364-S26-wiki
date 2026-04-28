@@ -14,20 +14,21 @@ For example, if you suspect that your experiment can be modeled by an equation s
 
 Example of a nested for loop to calculate Chi Squared:
 
-/ A = array
-/ phi = array
-/ sigma = uncertainty
+```python
+A = array
+phi = array
+sigma = uncertainty
 
-/ for i in range(A.size):
-/     for j in range(phi.size):
-/         model = (A[i]*sin(phi[i]))
-/         chiArray=(measured_value - model)**2/sigma**2
-/         chiSq[i,j]=chiArray.sum()
-        
+for i in range(A.size):
+    for j in range(phi.size):
+        model = (A[i]*sin(phi[i]))
+        chiArray=(measured_value - model)**2/sigma**2
+        chiSq[i,j]=chiArray.sum()
+```
 ---
 
 Example of the reduced chi squared to determine if the theoretical model is a good fit:
-
-/ rejectmodel = chiMin/(number of measurements - number of variables)
-
+``` python
+rejectmodel = chiMin/(number of measurements - number of variables)
+```
 ---
