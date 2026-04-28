@@ -1,6 +1,7 @@
 ---
 tags: 
 - Numerical Linear Algebra
+- Finding Eigenvectors and Eigenvalues Computationally
 - Computationally Solving Systems of Differential Equations
 ---
 
