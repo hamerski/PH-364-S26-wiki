@@ -35,7 +35,7 @@ nav:
   - Reduced chisq: 'Reduced chisq.md'
   - Reduced ChiSq Example: ReducedChiSqExample.md
   - Using the Chi^2: 'Using the Chi^2.md'
-  - model_fitting_chi_squared.md: model_fitting_chi_squared.md
+  - Model Fitting chi Squared.md: model_fitting_chi_squared.md
   - Computational Physics Introduction: computationalphysicsintroduction.md
   - Functions: Functions.md
   - Gaussian Distribution: gaussian_distribution.md
@@ -51,5 +51,5 @@ nav:
   - Plotting physical models in python: 'Plotting physical models in python.md'
   - Plotting With Uncertainty: Plotting_With_Uncertainty.md
   - Python Libraries: python_libraries.md
-  - python-dictionaries: python-dictionaries.md
+  - python Dictionaries: python-dictionaries.md
   - Solving ODEs Numerically in Python: solving_odes_numerically_in_python.md
