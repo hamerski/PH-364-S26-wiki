@@ -1,5 +1,5 @@
 ---
-tags
+tags:
  - python library
  - plasmapy
 ---
