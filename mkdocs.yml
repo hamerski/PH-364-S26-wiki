@@ -54,3 +54,4 @@ nav:
   - Python Libraries: python_libraries.md
   - python Dictionaries: python-dictionaries.md
   - Solving ODEs Numerically in Python: solving_odes_numerically_in_python.md
+  - PlasmaPY: plasmapy.md
