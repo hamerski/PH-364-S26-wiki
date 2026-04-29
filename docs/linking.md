@@ -15,11 +15,11 @@ For example this links to the [wiki homepage](https://beav.es/364wiki26) using t
 ## Internal Pages
 To link to another page on the wiki directly we can use relative links like so:
 ```
-[page name](../page.md)
+[page name](../page_filename)
 ```
 The double periods '..' indicate the parent directory, since we're working in the /docs directory within the wiki repo directory this tells mkdocs to go up one level, then back down to the appropriate file. 
 
-So now we can link to our [homepage](../home.md) directly.
+So now we can link to our [homepage](../home) directly.
 
 ## Images
 For displaying images we can follow the same principle, but add an !, either point to a url of the image
