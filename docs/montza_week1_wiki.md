@@ -1,9 +1,15 @@
-Alex Montz
-
 ---
 tags:
-- Wiki contribution week 1
+- statistics
+- chi-square
+- modeling
 ---
+
+## Explanation
+
+This contribution discusses the use of chi-squared and reduced chi-squared in evaluating how well a model fits data. The chi-squared value measures the difference between observed data and model predictions, while the reduced chi-squared accounts for the number of data points.
+
+A reduced chi-squared value close to 1 indicates a good fit, while values much larger than 1 suggest that the model does not describe the data well.
 
 I already know some basic computational models for physics. In PH 264, we learned about lots of (what I'm assuming to be relatively basic) statistical models, such as Gaussian distributions, Poisson distributions, and some general probability density definitions. I would say we spent a long time learning about different kinds of error and uncertainty, and how we can use them to possibly reject a model. 
 
