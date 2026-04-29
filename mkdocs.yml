@@ -23,4 +23,33 @@ nav:
   - Home: home.md
   - Tags: tags.md
   - Contribution Guide: contribute.md
+  - Linking: linking.md
   - Git Commands: git-instructions.md
+  - Git Push Process: gitPushProcess.md
+  - Understanding Git: understanding-git.md
+  - Coding in Linux: coding_in_linux.md
+  - Wave Files: wavfileio.md
+  - Chi^2 Minimization: Chi2_minimization.md
+  - Chisqr Fitting: chisqr_fitting.md
+  - Chisquared Model Fit: chisquared_model_fit.md
+  - Reduced chisq: 'Reduced chisq.md'
+  - Reduced ChiSq Example: ReducedChiSqExample.md
+  - Using the Chi^2: 'Using the Chi^2.md'
+  - model_fitting_chi_squared.md: model_fitting_chi_squared.md
+  - Computational Physics Introduction: computationalphysicsintroduction.md
+  - Functions: Functions.md
+  - Gaussian Distribution: gaussian_distribution.md
+  - Graphing: graphing.md
+  - Model Fitting: Jack_ModelFitting.md
+  - Model Fitting: ModelFitting.md
+  - Local Preview: local_preview.md
+  - Modeling Exponential Decay: modelingexponentialdecay.md
+  - Stat Model Overview: montza_wiki1_statModelOverview.md
+  - Numerical Methods in Linear Algebra: 'Numerical Methods in Linear Algebra.md'
+  - Numerical Modeling of Exponential Decay: 'Numerical Modeling of Exponential Decay.md'
+  - Numpy and Pandas: numpy_and_pandas.md
+  - Plotting physical models in python: 'Plotting physical models in python.md'
+  - Plotting With Uncertainty: Plotting_With_Uncertainty.md
+  - Python Libraries: python_libraries.md
+  - python-dictionaries: python-dictionaries.md
+  - Solving ODEs Numerically in Python: solving_odes_numerically_in_python.md
