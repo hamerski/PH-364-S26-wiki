@@ -23,7 +23,8 @@ nav:
   - Home: home.md
   - Tags: tags.md
   - Contribution Guide: contribute.md
-  - Linking: linking.md
+  - Linking Pages: linking.md
+  - Style Guide: style_guide.md
   - Git Commands: git-instructions.md
   - Git Push Process: gitPushProcess.md
   - Understanding Git: understanding-git.md
