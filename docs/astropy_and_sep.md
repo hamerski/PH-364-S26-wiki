@@ -66,7 +66,7 @@ histogram = plt.hist(image_data.flatten(), bins)
 plt.ylim(0,11000)
 ```
 
-![Alt Text](/images/unadjusted_pillars_histogram.png)
+![Alt Text](https://github.com/hamerski/PH-364-S26-wiki/blob/main/docs/images/unadjusted_pillars_histogram.png?raw=true)
 
 ## Step 2: Separating Background Noise
 
