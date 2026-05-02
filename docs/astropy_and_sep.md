@@ -56,7 +56,7 @@ plt.imshow(image_data.T, cmap="magma", vmin=-10, vmax=20) # .T transposes the im
 plt.colorbar()
 ```
 
-![Alt Text](/home/poolest/classes/ph364/unadjusted_pillars.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/unadjusted_pillars.png)
 
 Next, I can generate a preliminary histogram of my data by transforming my image data from a 2D array into a 1D array using numpy's ```flatten``` function. The histogram describes the number of pixels at a certain value. In this case, the higher values correspond to brighter objects in the image like stars. Because this image has a lot of background noise, the histogram doesn't have a lot of variance between more and less luminous objects, such as the star in the middle of the image.
 
@@ -66,7 +66,7 @@ histogram = plt.hist(image_data.flatten(), bins)
 plt.ylim(0,11000)
 ```
 
-![Alt Text](/home/poolest/classes/ph364/unadjusted_pillars_histogram.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/unadjusted_pillars_histogram.png)
 
 ## Step 2: Separating Background Noise
 
@@ -97,7 +97,7 @@ plt.imshow(rotated_img, interpolation='nearest', cmap='magma', origin='lower')
 plt.colorbar()
 ```
 
-![Alt Text](/home/poolest/classes/ph364/glow_estimation.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/glow_estimation.png)
 
 The function ```bkg.rms``` is similar to ```bkg.back``` but instead is an estimation of the background noise's standard deviation. The "rms" in the function stands for "root mean square". I can also create a visualization of this.
 
@@ -112,7 +112,7 @@ plt.imshow(rotated_img, interpolation='nearest', cmap='magma', origin='lower')
 plt.colorbar()
 ```
 
-![Alt Text](/home/poolest/classes/ph364/bg_noise_estimation.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/bg_noise_estimation.png)
 
 ## Step 3: Creating the Final Image and Histogram
 
@@ -125,7 +125,7 @@ plt.imshow(data_sub.T, cmap="magma", vmin=-14, vmax=20)
 plt.colorbar()
 ```
 
-![Alt Text](/home/poolest/classes/ph364/adjusted_pillars.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/adjusted_pillars.png)
 
 The histogram can give additional insight into the pixel luminosity. In comparison to the preliminary histogram, the final histogram is less broad and has one large peak. This peak corresponds to the bright star in the image. The histogram can be helpful if I want to adjust the color scale in the generated image so that luminous objects are more easily distinguishable.
 
@@ -135,7 +135,7 @@ histogram = plt.hist(data_sub.flatten(), bins)
 plt.ylim(0,60000)
 ```
 
-![Alt Text](/home/poolest/classes/ph364/adjusted_pillars_histogram.png)
+![Alt Text](https://hub-orange.datasci.oregonstate.edu/ph364x001/hub/user-redirect/lab/tree/poolest/classes/ph364/adjusted_pillars_histogram.png)
 
 Now that I have generated my new image, Astropy's FITS module will allow me to create a new FITS file with the adjusted data. I specify what I want the new FITS file to be called in the variable ```outfile``` and then use the function ```fits.PrimaryHDU```. This function constructs a new HDU to go in the ```PRIMARY``` row of the FITS file, which is where the image data is stored. Finally, I use the function ```writeto``` to create my new file and specify ```overwrite=True``` so that if I want to adjust my image, ```outfile``` will be updated without creating a new file.
 
