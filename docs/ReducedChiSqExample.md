@@ -1,16 +1,18 @@
 ---
 tags:
- - Reduced Chi^2
+ - model fitting
 ---
-Testing the validity of models is quite important. It allows us to find models to represent the real world
-phenomenon. In order to test the validity of a model we use something called the Reduced Chi^2.
+Testing the validity of models is quite important. It allows us to find models that can represent real world
+phenomena. In order to test the validity of a model we use something called the Reduced Chi^2.
 
-In order to calculate the Reduced Chi^2 we take the 
+In order to calculate the Reduced Chi^2 we first take the Chi^2: 
 sum of (each observed data point - the model with our guess)^2/(uncertainty of the data point)^2
 
-Taking the minimum value of the reduced chi^2 it is then divided by the number the observed data points - the degrees of freedom
+The minimum value of Chi^2 is taken and then divided by the number the observed data points - the degrees of freedom
 
-The degrees of freedom is the number of parameters you are changing.
+The degrees of freedom is the number of parameters you are changing. 
+
+The result of these calculations is the Reduced Chi^2. 
 
 An example of testing a model is for 5 temperature readings with uncertainty 0.5 degrees.
 
@@ -33,5 +35,5 @@ chiMin = np.min(chiSq)
 
 redMin = chiMin/(temp.size-1)
 
-If the result of the reduced chi^2 is small then the model is a good fit.
+If the result of the Reduced Chi^2 is small (0.8-1.2), then the proposed model is a good fit.
 	
