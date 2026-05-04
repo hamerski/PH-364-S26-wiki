@@ -1,9 +1,9 @@
 ---
- - libraries
- - loops
- - plotting
+ - for loops
+ - plotting 1D motion
+ - Euler method 
 ---
-Computational physics uses computer code to create and/or test theoretical models for experimental data. For example, this might involve creating single or multidimensional arrays of model prediction data using the Numpy library and plotting this data with the experimental data using functions in the matplotlib package. To allow operations to be performed on a large set of values at once, it is necessary to work with loops or similar algorithms. Due to the often large size of datasets dealt with, considering the efficiency of a program can become an important consideration. Efficiency constraints might lead to the need to make further assumptions or simplifications of a system or require a more coarse model value spacing. An simple example that brings all of these concepts together might be creating a model for the position of an object in freefall, with some assumptions made being that the acceleration due to gravity is approximately constant and that there is no air resistance.
+Computational physics uses computer code to create and/or test theoretical models for experimental data. For example, this might involve creating single or multidimensional arrays of model prediction data using the Numpy library and plotting this data with the experimental data using functions in the matplotlib package. To allow operations to be performed on a large set of values at once, it is necessary to work with loops or similar algorithms. Due to the often large size of datasets dealt with, considering the efficiency of a program can become an important consideration. Efficiency constraints might lead to the need to make further assumptions or simplifications of a system or require a more coarse model value spacing. An simple example that brings all of these concepts together might be creating a model for the position of an object in freefall, with some assumptions made being that the acceleration due to gravity is approximately constant and that there is no air resistance. For this we will apply the Euler method to help us approximate the solution to an object in motion under constant gravity.  
 
 
 ```python
