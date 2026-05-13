@@ -55,3 +55,18 @@ nav:
   - python Dictionaries: python-dictionaries.md
   - Solving ODEs Numerically in Python: solving_odes_numerically_in_python.md
   - PlasmaPY: plasmapy.md
+  - Brief Plasmapy Info: brief_plasmapy_info.md
+  - Astropy and Sep: astropy_and_sep.md
+  - Astropy Cosmology: Astropy_cosmology.md
+  - Astropy Cosmology Module: Astropy_Cosmology_Module.md
+  - Astropy Constants: Astropy-Constants.md
+  - Astropy Cosmology Redshift: astropy-cosmology-redshift.md
+  - Astropy Cosmology Showcase: astropy-cosmology-showcase.md
+  - Astropy Units and Constants: Astropy-Units-and-Constants.md
+  - Model UniverseAge Astropy: model_universeAge_astropy.md 
+  - Quantum Toolbox: QuantumToolbox.md
+  - Qutip BlochSphere: Qutip_BlochSphere.md
+  - QuTip Harmonic Oscillators Overview: QuTip_Harmonic_Oscillators_Overview.md
+  - QuTip Schrodinger: qutip-schrodinger.md
+  - Solving TD Hamiltonians: Solving_TD_Hamiltonians.md
+  - mdtraj: stavros_mdtraj.md
