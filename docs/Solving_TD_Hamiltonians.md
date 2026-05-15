@@ -1,7 +1,7 @@
 ---
 tags:
  - QuTip
- - quantum mechanics
+ - Quantum mechanics
 ---
 
 

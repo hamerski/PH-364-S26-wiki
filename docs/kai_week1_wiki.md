@@ -1,8 +1,8 @@
 ---
 tags:
-- statistics
-- numpy
-- data-analysis
+ - statistict
+ - numpy
+ - data-analysis
 ---
 
 

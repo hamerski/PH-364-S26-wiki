@@ -1,6 +1,6 @@
 ---
 tags:
-- astropy
+- Astropy
 - cosmology
 - redshift
 - lookback-time

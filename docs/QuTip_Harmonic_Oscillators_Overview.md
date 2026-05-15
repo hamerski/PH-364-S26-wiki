@@ -1,7 +1,7 @@
 ---
 tags: 
  - QuTip
- - Quantum Mechanics
+ - Quantum mechanics
 ---
 
 QuTip involves quantum systems, the first module can set-up the quantum systems, as well as do things like solving for the commutator, it can transpose a matrix, find the eigenvalues, eigenstates, find the norm, take the adjoint, and much more. To show the usefulness of this module I chose to show it setting up a quantum system.

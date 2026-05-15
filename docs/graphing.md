@@ -1,8 +1,6 @@
 ---
-
 tags:
-  - plotting 
-  - graphing calls
+  - Plotting
 ---
 
 

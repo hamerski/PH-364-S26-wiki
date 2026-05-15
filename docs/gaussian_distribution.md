@@ -1,6 +1,6 @@
 ---
 tags: 
- - Statistics
+ - statistict
  - Plotting
 ---
 

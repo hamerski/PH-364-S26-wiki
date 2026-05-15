@@ -1,6 +1,6 @@
 ---
 tags:
-- plotting
+- Plotting
 ---
 
 One thing I understood well in PH264 was how to plot experimental data with error bars to show uncertainty clearly. Plotting data with error bars is useful because it shows both the measured values and uncertainty at each point and turns a list of numbers into somehting we can interpret.

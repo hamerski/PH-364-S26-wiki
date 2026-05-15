@@ -1,8 +1,6 @@
 ---
 tags: 
-- Numerical Linear Algebra
-- Finding Eigenvectors and Eigenvalues Computationally
-- Computationally Solving Systems of Differential Equations
+- Numerical methods
 ---
 
 I'm still new to coding and computational physics especially, but, before taking this class, I had taken a few math courses that were more focused on computation, these being Applied ODE's and Numerical Linear algeba. The Applied ODE class was mostly plotting solutions and wasn't the most coding intensive, but, for Numerical Linear algebra, it definitely was. 

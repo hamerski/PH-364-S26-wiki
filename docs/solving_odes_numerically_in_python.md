@@ -1,9 +1,7 @@
 ---
 tags: 
- - ode
- - numerical methods
- - differential equations
- - numenrical integration
+ - Numerical methods
+ - Differential equations
  - scipy
 ---
 

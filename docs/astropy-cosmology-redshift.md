@@ -3,7 +3,7 @@ tags:
  - astrophysics
  - python library
  - numpy
- - plotting
+ - Plotting
  - data-analysis
 ---
 

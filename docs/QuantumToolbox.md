@@ -1,7 +1,7 @@
-----
+---
 tags:
- - Numerical Methods
-----
+ - Numerical methods
+---
 
 Overview of QuTip:
 Though I think there is a lot to unpack with this library, Qutip is a "Quantum Toolbox" library for Python code. It is designed specifically for quantum systems, providing essential tools to properly represent quantum systems and states, to define operators and execute them correctly, and especially to solve time exolution problems. The module I explored is the qutip.solver module, and specifically I wanted to experiment with the function sesolve(). This function is used for solving unitary time evolutions for time-independent and -dependent Hamiltonians. The function also allows us to define a Hamiltonian, specify an initial quantum state, and compute how the system evolves over time. This is directly relevant to quantum mechanics (and thus physics) as physicists frequently solve the Schrodinger equation, which sometimes cannot be solved analytically. Ultimately, this was a really exciting library to discover and explore and it also captures how computational physics keeps up with theoretical and experimental physics.

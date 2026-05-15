@@ -1,7 +1,7 @@
 ---
 tags:
   - QuTip
-  - quantum mechanics
+  - Quantum mechanics
 ---
 
 ## QuTip Dynamics and Time-Evolution: Schrödinger Equation

@@ -1,6 +1,6 @@
 ---
 tags:
- - plotting
+ - Plotting
  - python features
 ---
 

@@ -1,8 +1,8 @@
 ---
 tags: 
  - modeling
- - astropy
- - plotting
+ - Astropy
+ - Plotting
  - astrophysics
 ---
 
