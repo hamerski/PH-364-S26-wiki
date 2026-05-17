@@ -1,6 +1,6 @@
 ---
 tags: 
- - Model Fitting
+ - model fitting
  - Plotting
 ---
 
