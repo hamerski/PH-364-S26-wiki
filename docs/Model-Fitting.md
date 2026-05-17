@@ -4,8 +4,6 @@ tags:
 ---
 
 
-Jack Seely
-
 What would you consider to be the main concepts or themes from PH 264 or from your own experience programming/doing physics?
     How to represent data in a manner that is easily readable and understood. (ie. adding labels, legends, displaying multiple functions on the same graph so they can be more easily compared)
     
