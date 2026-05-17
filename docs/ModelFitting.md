@@ -1,11 +1,9 @@
 ---
 tags: 
- - Model fitting
+ - Model Fitting
  - Plotting
 ---
 
-
-Jack Seely
 
 This is a demonstration on how to represent data in a manner that is easily readable and understood. (ie. adding labels, legends, displaying multiple functions on the same graph so they can be more easily compared)
     
