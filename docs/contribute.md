@@ -30,6 +30,10 @@ tags:
 ---
 ```
 
+BEFORE ADDING YOUR TAGS: go to https://hamerski.github.io/PH-364-S26-wiki/tags/ to browse existing tags and see if any could be applied your contribution. 
+Some existing tags include: "model fitting", "statistic", "guide", etc. 
+
+
 Simply start your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak.
 
 Before writing your own tags, check the wiki to see if there are [existing tags](tags.md) you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`.
