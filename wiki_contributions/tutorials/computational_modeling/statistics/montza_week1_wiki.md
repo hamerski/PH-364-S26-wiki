@@ -2,7 +2,7 @@ Alex Montz
 
 ---
 tags:
-- Wiki contribution week 1
+- chi-squared
 ---
 
 I already know some basic computational models for physics. In PH 264, we learned about lots of (what I'm assuming to be relatively basic) statistical models, such as Gaussian distributions, Poisson distributions, and some general probability density definitions. I would say we spent a long time learning about different kinds of error and uncertainty, and how we can use them to possibly reject a model. 

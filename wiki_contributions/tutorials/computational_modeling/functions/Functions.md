@@ -1,3 +1,6 @@
+---
+ - python features
+---
 I took PH 264 last term with most of the people in this class, so my skills are similar to theirs. I'm still learning how to code and understand python but I think what I am best at is cutting down code to keep things more concise. To do this what I try and do is find python functions that can do a specific thing and shorten a task down so that it is simpler and more concise. I feel like making your code concise and easy to understand is helpful not only to you who is coding it, but also to the engine while running it. 
 
 The first method to shorten your code is to understand the extensions that you are using. Since we are mostly using numpy and matplotlib.pyplot, I use these sites in order to find easier methods to write my code: 

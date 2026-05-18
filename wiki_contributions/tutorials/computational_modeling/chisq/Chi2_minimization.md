@@ -1,6 +1,7 @@
 ---
-tags: 
+tags:
  - model fitting
+ - chi-squared
 ---
 ```python
 #An important concept in computational physics is using numerical methods to analysize real world data with theoretical models

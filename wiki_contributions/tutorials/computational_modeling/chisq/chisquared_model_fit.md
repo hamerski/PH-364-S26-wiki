@@ -1,9 +1,9 @@
 ---
 tags: 
  - model fitting
+ - chi-squared
  - Nested loops
  - Multi-Variable
- - guide
 ---
 
 One important skill discussed in PH264 was statistical uncertainty and how closely a model is to a measured result. One method of comparing models and finding uncertainty is to calculate the Chi Squared of the model, which compares model predictions to measured data, weighted by uncertainty. This can be a useful tool when creating new models to test if they are a good representation of the properties we are trying to model. 

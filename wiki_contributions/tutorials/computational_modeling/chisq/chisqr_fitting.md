@@ -1,6 +1,7 @@
 ---
 tags: 
  - model fitting
+ - chi-squared
 ---
 In PH 264, what seemed to be the big take away was the ability to compare the fit of different models by checking 
 the reduced chi^2 value of a given theoretical fit to the experimentally collected data. 
