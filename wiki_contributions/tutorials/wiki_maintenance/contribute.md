@@ -21,6 +21,8 @@ Requirements:
 
 We will cover how to write commit messages during the first week of class.
 
+## Tagging Guidelines
+
 To include tags, use the same syntax shown at the top of this document:
 
 ```
