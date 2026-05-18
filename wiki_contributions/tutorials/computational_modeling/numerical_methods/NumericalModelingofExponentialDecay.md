@@ -1,8 +1,8 @@
 ---
 tags: 
-Greta Varga (Edited by Stefania Feliciano) 
-Wiki Contribution 1
-Numerical Modeling of Exponential Decay
+- Greta Varga (Edited by Stefania Feliciano) 
+- Wiki Contribution 1
+- Numerical Modeling of Exponential Decay
 --- 
 One of the biggest concepts in computational physics is using numerical methods to create models for physical systems,
 especially when it is hard to work with actual experimental data, or solutions are too analytical. A key thing I learned from 
