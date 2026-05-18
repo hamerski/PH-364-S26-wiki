@@ -1,10 +1,10 @@
 ---
 tags:
-- Astropy
-- cosmology
-- redshift
-- lookback-time
-- comoving-distance
+ - Astropy
+ - cosmology
+ - redshift
+ - lookback-time
+ - comoving-distance
 ---
 
 # Library: Astropy
