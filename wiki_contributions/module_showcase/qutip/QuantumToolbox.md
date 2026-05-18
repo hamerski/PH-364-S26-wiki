@@ -1,6 +1,7 @@
 ---
 tags:
  - Numerical methods
+ - QuTip
 ---
 
 Overview of QuTip:

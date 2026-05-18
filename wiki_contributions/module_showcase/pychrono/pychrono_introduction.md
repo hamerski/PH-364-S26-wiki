@@ -3,6 +3,7 @@ tags:
  - guide
  - modeling
  - python library
+ - pychrono
 ---
 ## Overview
 PyChrono is a port of Chrono, which is coded in C++, for Python. The module is a very versatile tool that allows you to simulate 3D bodies of differing properties while tracking nearly any kinematic quantity needed for model simulations.

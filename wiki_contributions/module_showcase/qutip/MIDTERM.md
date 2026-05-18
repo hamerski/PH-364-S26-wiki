@@ -1,6 +1,10 @@
-title : Using QuTip for Tensors 
-tags: [Qutip, tensors]
+---
+tags:
+ - QuTip
+ - tensors
+---
 
+Title : Using QuTip for Tensors 
 
 The qutip libary is used for simulating quantum systems. Since quantum systems a very abstract is can be hard visually concepulatize it and the mathamtics can also get very intense at times such that simple operation in python cant solve it or it makes a big mess as a whole. This is whatt qutip is meant for being able use operation commononly used in the quantum world and be able to create simulations such that one is able to conceptualize this ideas better.
 
