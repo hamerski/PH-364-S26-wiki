@@ -30,13 +30,16 @@ tags:
 ---
 ```
 
-BEFORE ADDING YOUR TAGS: go to https://hamerski.github.io/PH-364-S26-wiki/tags/ to browse existing tags and see if any could be applied your contribution. 
+BEFORE ADDING YOUR TAGS: Check the wiki to see if there are [existing tags](tags.md) you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`. Make sure that the tag you are adding to your document has the same capitalization and punctuation as the tag you are referencing, otherwise it will create a new tag and your document won't be properly sorted. 
 Some existing tags include: "model fitting", "statistic", "guide", etc.
 
 
-Simply start your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. 
+Simply your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. Tags should follow this general format scheme when written:
 
-Before writing your own tags, check the wiki to see if there are [existing tags](tags.md) you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`. Make sure that the tag you are adding to your document has the same capitalization and punctuation as the tag you are referencing, otherwise it will create a new tag and your document won't be properly sorted.
+1. All letters in a tag should be lowercase **unless** referencing something specific like a name that is known to be capitalized; for example, Astropy, QuTip.
+2. All words in a tag should be separated by **spaces only**.
+
+Rules are made for the sake of limiting duplicate tags where possible.
 
 <!--
 ## Adding a Page
