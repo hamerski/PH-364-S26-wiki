@@ -6,12 +6,12 @@ tags:
 
 ## Overview
 This document provides a standardized template to use when beginning your wiki contribution. 
-Copy the text below and paste it into the file you want to commit as your contribution.
+Copy the text in the markdown cell using the icon in the top right and paste it into the file you want to commit as your contribution.
 >When naming the file of your contribution, keep it brief and related to your topic. Avoid capitalization, unique characters, and spaces; instead use underscores "_" to seperate words.
 
 ---
 - Any text within square brackets "[  ]" is a section for you to enter text for your document.
-- Text labeled with a * is optional or situational.
+- Text labeled with * is optional or situational.
 
 ```` md
 ---
