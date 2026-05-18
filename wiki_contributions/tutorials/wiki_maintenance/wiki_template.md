@@ -12,7 +12,7 @@ Copy the text below and paste it into the file you want to commit as your contri
 - Any text within square brackets [  ] is a section for you to enter text for your document.
 - Text labeled with a * is optional or situational.
 
-````md
+```` md
 ---
 tags:
  - [tags]
@@ -34,12 +34,12 @@ tags:
 [text for subtitle 2]
 
 *If adding code to entry:
-```python
+``` python
 [code]
 ```
 
 *If adding markdown cells to entry:
-```md
+``` md
 [text]
 ```
 ````
