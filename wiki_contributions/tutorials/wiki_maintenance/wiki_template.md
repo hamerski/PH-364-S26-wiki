@@ -20,12 +20,26 @@ tags:
 ---
 #[title]
 
-##[Subtitle_1]
-[text of entry for subtitle 1]
+##[Subtitle 1 / *Overview]
+[text for subtitle 1]
+ * Good place to add general info such as:
+  - Summary of the document
+  - Requirements or prerequisites
+  - How the information is useful
+  - Links to other useful entries
 
-*If adding code to entry
+---
+
+##[Subtitle 2]
+[text for subtitle 2]
+
+*If adding code to entry:
 ```python
 [code]
 ```
 
+*If adding markdown cells to entry:
+```md
+[text]
+```
 ````
