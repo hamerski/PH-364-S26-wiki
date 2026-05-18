@@ -83,3 +83,4 @@ plt.show()
 
 # In the above chart, the dashed line represents the point at which space has been stretched in all universes an equal amount. In other words, if we look at the current distance between two points in our universe, and then move those points to another universe with a different matter density BUT which is also at the point of intersection with the dashed line, the distance is the same.
 
+For more on Astropy.cosmology see [astropy-cosmology-showcase](astropy-cosmology-showcase.md), [astropy-cosmology-redshift](astropy-cosmology-redshift), [Astropy_Cosmology_Module](Astropy_Cosmology_Module.md)
