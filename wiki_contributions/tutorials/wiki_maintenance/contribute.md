@@ -41,6 +41,8 @@ Simply your contribution with the same 3 lines at the very top, and write your t
 1. All letters in a tag should be lowercase **unless** referencing something specific like a name that is known to be capitalized; for example, Astropy, QuTip.
 2. All words in a tag should be separated by **spaces only**.
 
+Examples of this from existing tags are: "model fitting", "cosmology", "python features", "QuTip". 
+
 Rules are made for the sake of limiting duplicate tags where possible.
 
 <!--
