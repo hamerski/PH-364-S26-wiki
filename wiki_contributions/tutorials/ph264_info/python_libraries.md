@@ -4,6 +4,10 @@ tags:
  - python features
 ---
 
+See Documentation:
+[Matplotlib](https://matplotlib.org/)
+[Numpy](https://numpy.org/)
+
 One of the main themes of computional physics is statistics and coding, and a lot of the coding that we went over in PH264 was centered around the numpy and matplotlib libraries. These libraries allow mathmatical calculations and plotting. Combining these two libraries we were able to do a lot of statistics with Chi-Sqaure values to find the best approximations. Example code might look like the following:
 ``` python
 import numpy as np

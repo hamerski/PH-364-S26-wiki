@@ -1,5 +1,3 @@
-Alex Montz
-
 ---
 tags:
 - chi-squared

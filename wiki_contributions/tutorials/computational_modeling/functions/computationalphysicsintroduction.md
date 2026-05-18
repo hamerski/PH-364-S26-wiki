@@ -1,10 +1,10 @@
-------
+---
 tags:
 - numerical methods
 - differential equations
 - model fitting
 - plotting
--------
+---
 Computational Physics: Using Data to Model the Physical World
 
 Computational physics is a field that adds together physical understanding with computer programming and numerical methods in order to analyze data and be able to model real world things. Instead of just pen to paper and doing equations by hand, computational physics lets us use computers to be able to simulate more complicated systems that would be too hard or almost impossible to solve in other ways. 

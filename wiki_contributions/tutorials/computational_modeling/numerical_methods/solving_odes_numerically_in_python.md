@@ -1,8 +1,6 @@
 ---
 tags: 
  - Numerical methods
- - Differential equations
- - scipy
 ---
 
 # Solving ODEs Numerically in Python

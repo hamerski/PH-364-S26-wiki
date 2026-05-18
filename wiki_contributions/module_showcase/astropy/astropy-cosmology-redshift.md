@@ -1,6 +1,6 @@
 ---
 tags:
- - astrophysics
+ - Astropy
  - python library
  - numpy
  - Plotting

@@ -1,6 +1,7 @@
 ---
 tags:
-- python features
+ - python features
+ - numpy
 ---
 
 ## Concept: Libraries

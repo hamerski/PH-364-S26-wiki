@@ -1,6 +1,7 @@
 ---
 tags:
-- python library
+ - python library
+ - Astropy
 ---
 
 ## Midterm Module Showcase: Astropy FITS (and sep)

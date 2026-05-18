@@ -1,6 +1,7 @@
 ---
 tags: 
  - model fitting
+ - Astropy
 ---
 The library I have chosen is Astropy and the module I will be focusing on is the model and fitting module using astropy.modeling.
 

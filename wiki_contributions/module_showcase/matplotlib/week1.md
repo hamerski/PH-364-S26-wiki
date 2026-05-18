@@ -1,3 +1,7 @@
+---
+tags:
+ - Plotting
+---
 Jack Seely
 
 What would you consider to be the main concepts or themes from PH 264 or from your own experience programming/doing physics?
