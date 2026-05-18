@@ -79,3 +79,4 @@ So overall, this shows that redshift itself is not enough to know the age or dis
 - Redshift alone doesn't determine distance or age  
 - Cosmological models are needed to interpret observations  
 - Different models give similar trends but different values  
+## For more see on astropy Cosmology see [Astropy_Cosmology_Module](Astropy_Cosmology_Module.md),[Astropy_cosmology](Astropy_cosmology.md),[astropy-cosmology-showcase](astropy-cosmology-showcase.md)
