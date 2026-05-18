@@ -11,3 +11,4 @@ When we make changes to files inside our repo or directories, we need to make su
 Before pushing changes, we need to make sure we are current with the shared repo, so we use "git config pull.rebase false". 
 Finally, we use git push to push the changes to the shared repository. 
 
+A more thorough guide is given here: [git instructions](git-instructions.md)
