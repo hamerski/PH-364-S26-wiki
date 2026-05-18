@@ -1,5 +1,3 @@
-Alex Montz
-
 ---
 tags:
 - Wiki contribution week 1
