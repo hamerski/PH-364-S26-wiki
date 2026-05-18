@@ -34,9 +34,9 @@ BEFORE ADDING YOUR TAGS: go to https://hamerski.github.io/PH-364-S26-wiki/tags/ 
 Some existing tags include: "model fitting", "statistic", "guide", etc.
 
 
-Simply start your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. Make sure that the tag you are adding to your document has the same capitalization and punctuation as the tag you are referencing, otherwise it will create a new tag and your document won't be properly sorted.
+Simply start your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. 
 
-Before writing your own tags, check the wiki to see if there are [existing tags](tags.md) you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`.
+Before writing your own tags, check the wiki to see if there are [existing tags](tags.md) you can use to categorize your contribution. For example, if there is already a tag called `data viz`, we don't need a new tag called `plotting data`. Make sure that the tag you are adding to your document has the same capitalization and punctuation as the tag you are referencing, otherwise it will create a new tag and your document won't be properly sorted.
 
 <!--
 ## Adding a Page
