@@ -36,7 +36,7 @@ BEFORE ADDING YOUR TAGS: Check the wiki to see if there are [existing tags](tags
 Some existing tags include: "model fitting", "statistic", "guide", etc.
 
 
-Simply your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. Tags should follow this general format scheme when written:
+Simply start your contribution with the same 3 lines at the very top, and write your tags with a hyphen, seperate tags with a linebreak. Tags should follow this general format scheme when written:
 
 1. All letters in a tag should be lowercase **unless** referencing something specific like a name that is known to be capitalized; for example, Astropy, QuTip.
 2. All words in a tag should be separated by **spaces only**.
