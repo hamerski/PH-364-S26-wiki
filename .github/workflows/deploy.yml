@@ -34,7 +34,7 @@ jobs:
       - name: Auto-install Python modules required by Notebooks
         run: |
           pip install pigar
-          pigar gen -f ./ipynb_auto_reqs.txt ./docs --auto-select --question-answer yes
+          pigar gen -f ./ipynb_auto_reqs.txt ./wiki_contributions --auto-select --question-answer yes
           pip install -r ipynb_auto_reqs.txt
       - name: Build site
         run: mkdocs build --clean
