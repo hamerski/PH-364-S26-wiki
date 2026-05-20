@@ -17,3 +17,6 @@ jupyterlab-workspace
 # MkDocs site builds #
 ######################
 ./site/
+
+*.swp
+*.bak
