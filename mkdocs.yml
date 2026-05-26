@@ -23,10 +23,10 @@ plugins:
 nav:
   - Home: home.md
   - section:
-    - Tags: wiki_maintenance/tags.md
-    - Contribution Guide: wiki_maintenance/contribute.md
-    - Linking Pages: wiki_maintenance/linking.md
-    - Style Guide: wiki_maintenance/style_guide.md
+    - Tags: ./wiki_maintenance/tags.md
+    - Contribution Guide: ./wiki_maintenance/contribute.md
+    - Linking Pages: ./wiki_maintenance/linking.md
+    - Style Guide: ./wiki_maintenance/style_guide.md
   - Git Commands: git-instructions.md
   - Git Push Process: gitPushProcess.md
   - Understanding Git: understanding-git.md
