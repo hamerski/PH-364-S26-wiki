@@ -22,11 +22,13 @@ plugins:
 # Don't edit above this line #
 nav:
   - Home: home.md
-  - section:
-    - Tags: ./wiki_maintenance/tags.md
-    - Contribution Guide: ./wiki_maintenance/contribute.md
-    - Linking Pages: ./wiki_maintenance/linking.md
-    - Style Guide: ./wiki_maintenance/style_guide.md
+  - section: Wiki Maintenance
+    - Tags: tutorials/wiki_maintenance/tags.md
+    - Contribution Guide: tutorials/wiki_maintenance/contribute.md
+    - Linking Pages: tutorials/wiki_maintenance/linking.md
+    - Style Guide: tutorials/wiki_maintenance/style_guide.md
+    - Local Preview: tutorials/wiki_maintenance/local_preview.md
+    - Wiki Template: tutorials/wiki_maintenance/wiki_template.md
   - Git Commands: git-instructions.md
   - Git Push Process: gitPushProcess.md
   - Understanding Git: understanding-git.md
@@ -45,7 +47,6 @@ nav:
   - Graphing: graphing.md
   - Model Fitting: Jack_ModelFitting.md
   - Model Fitting: ModelFitting.md
-  - Local Preview: local_preview.md
   - Modeling Exponential Decay: modelingexponentialdecay.md
   - Stat Model Overview: montza_wiki1_statModelOverview.md
   - Numerical Methods in Linear Algebra: 'Numerical Methods in Linear Algebra.md'
