@@ -22,10 +22,11 @@ plugins:
 # Don't edit above this line #
 nav:
   - Home: home.md
-  - Tags: tags.md
-  - Contribution Guide: contribute.md
-  - Linking Pages: linking.md
-  - Style Guide: style_guide.md
+  - section:
+    - Tags: wiki_maintenance/tags.md
+    - Contribution Guide: wiki_maintenance/contribute.md
+    - Linking Pages: wiki_maintenance/linking.md
+    - Style Guide: wiki_maintenance/style_guide.md
   - Git Commands: git-instructions.md
   - Git Push Process: gitPushProcess.md
   - Understanding Git: understanding-git.md
