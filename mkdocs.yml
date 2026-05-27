@@ -34,16 +34,19 @@ nav:
     - Git Push Process: tutorials/git/gitPushProcess.md
   - File Types:
     - Wav Files: tutorials/file_types/wavfileio.md
+  - Computational Modeling:
+    - Chi Squared:
+      - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
+      - Chisqr Fitting: tutorials/computational_modeling/chisq/chisqr_fitting.md
+      - Chisquared Model Fit: tutorials/computational_modeling/chisq/chisquared_model_fit.md
+      - Reduced chisq: tutorials/computational_modeling/chisq/'Reduced chisq.md'
+      - Reduced ChiSq Example: tutorials/computational_modeling/chisq/ReducedChiSqExample.md
+      - Using the Chi^2: tutorials/computational_modeling/chisq/'Using the Chi^2.md'
+      - Model Fitting chi Squared.md: tutorials/computational_modeling/chisq/model_fitting_chi_squared.md
+      - Chi Squared: tutorials/computational_modeling/chisq/Wiki_ContLL.md
   - Understanding Git: understanding-git.md
   - Coding in Linux: coding_in_linux.md
-  - Wave Files: wavfileio.md
-  - Chi^2 Minimization: Chi2_minimization.md
-  - Chisqr Fitting: chisqr_fitting.md
-  - Chisquared Model Fit: chisquared_model_fit.md
-  - Reduced chisq: 'Reduced chisq.md'
-  - Reduced ChiSq Example: ReducedChiSqExample.md
-  - Using the Chi^2: 'Using the Chi^2.md'
-  - Model Fitting chi Squared.md: model_fitting_chi_squared.md
+  
   - Computational Physics Introduction: computationalphysicsintroduction.md
   - Functions: Functions.md
   - Gaussian Distribution: gaussian_distribution.md
