@@ -34,6 +34,31 @@ nav:
     - Git Push Process: tutorials/git/gitPushProcess.md
   - File Types:
     - Wav Files: tutorials/file_types/wavfileio.md
+  - Module Showcases:
+    - Astropy:
+    - Harmonica:
+    - Matplotlib:
+    - Mdtraj:
+    - Numpy:
+      - Numpy PH264: module_showcase/numpy/kai_week1_wiki.md
+      - Numpy and Pandas: module_showcase/numpy/numpy_and_pandas.md
+    - Plasmapy:
+      - Brief Plasmapy Info: module_showcase/plasmapy/brief_plasmapy_info.md
+      - Plasmapy: module_showcase/plasmapy/plasmapy.md
+    - Pychrono:
+      - PyChrono Introduction: module_showcase/pychrono/pychrono_introduction.md
+    - Qutip:
+      - Using QuTip for Tensors: module_showcase/qutip/MIDTERM.md
+      - Quantum Toolbox: module_showcase/qutip/QuantumToolbox.md
+      - Qutip Probability Distribution: "module_showcase/qutip/Qutip Probability Distribution module.ipynb"
+      - Qutip BlochSphere: module_showcase/qutip/Qutip_BlochSphere.md
+      - QuTip Harmonic Oscillators: module_showcase/qutip/QuTip_Harmonic_Oscillators_Midterm.ipynb
+      - QuTip Harmonic Oscillators Overview: module_showcase/qutip/QuTip_Harmonic_Oscillators_Overview.md
+      - Qutip Probability Distribution module: module_showcase/qutip/Qutip_Probability_Distribution_module.ipynb
+      - Qutip Schroedinger: module_showcase/qutip/qutip-schrodinger.md
+      - Solving TD Hamiltonians: module_showcase/qutip/Solving_TD_Hamiltonians.md
+    - Scipy:
+      - Linear Algebra Using SciPy: "module_showcase/scipy/Linear Algebra using SciPy.md"
   - Computational Modeling:
     - Chi Squared:
       - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
@@ -62,7 +87,7 @@ nav:
     - Numerical Methods:
       - Numerical Methods in Linear Algebra: "tutorials/computational_modeling/numerical_methods/Numerical Methods in Linear Algebra.md"
       - Numerical Modeling of Exponential Decay: tutorials/computational_modeling/numerical_methods/NumericalModelingofExponentialDecay.md
-      - Solving ODEs Numerically in Python: tutorials/computational_modeling/numerical_methods/
+      - Solving ODEs Numerically in Python: tutorials/computational_modeling/numerical_methods/solving_odes_numerically_in_python.md
     - Statistics:
         - Gaussian Distribution: tutorials/computational_modeling/statistics/gaussian_distribution.md
         - Stat Model Overview: tutorials/computational_modeling/statistics/montza_wiki1_statModelOverview.md
@@ -76,4 +101,3 @@ nav:
     - Misc PH264 3: tutorials/computational_modeling/ph264_info/week1_wiki.md
     - Misc PH264 4: tutorials/computational_modeling/ph264_info/week1_Wingate.md
     - Misc Ph264 5: "tutorials/computational_modeling/ph264_info/Wiki Contribution Week 1.ipynb"
-
