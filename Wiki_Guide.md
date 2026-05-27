@@ -1,5 +1,7 @@
+---
 tags:
-  - guide
+- guide
+---
 
 This is a wiki guide on how to organize submissions to the appropriate catagory. 
 
