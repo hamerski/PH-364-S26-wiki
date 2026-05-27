@@ -29,8 +29,9 @@ nav:
     - Style Guide: tutorials/wiki_maintenance/style_guide.md
     - Local Preview: tutorials/wiki_maintenance/local_preview.md
     - Wiki Template: tutorials/wiki_maintenance/wiki_template.md
-  - Git Commands: git-instructions.md
-  - Git Push Process: gitPushProcess.md
+  - section: Git
+    - Git Commands: tutorials/git/git-instructions.md
+    - Git Push Process: tutorials/git/gitPushProcess.md
   - Understanding Git: understanding-git.md
   - Coding in Linux: coding_in_linux.md
   - Wave Files: wavfileio.md
