@@ -1,8 +1,10 @@
 # Temp files #
 ##############
 *.swp
+*.swo
 *.temp
 *.tmp
+*.bak
 tmp/
 
 # Jupyter Notebook checkpoints #
@@ -16,7 +18,4 @@ jupyterlab-workspace
 
 # MkDocs site builds #
 ######################
-./site/
-
-*.swp
-*.bak
+/site/
