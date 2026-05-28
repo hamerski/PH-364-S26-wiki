@@ -19,3 +19,4 @@ jupyterlab-workspace
 # MkDocs site builds #
 ######################
 /site/
+/pynb_auto_reqs.txt
