@@ -36,9 +36,22 @@ nav:
     - Wav Files: tutorials/file_types/wavfileio.md
   - Module Showcases:
     - Astropy:
+      - astropy and sep: module_showcase/astropy/astropy_and_sep.md
+      - Astropy cosmology: module_showcase/astropy/Astropy_cosmology.md
+      - Astropy Cosmology Module: module_showcase/astropy/Astropy_Cosmology_Module.md
+      - Astropy Constants: module_showcase/astropy/Astropy-Constants.md
+      - Astropy Cosmology Redshift: module_showcase/astropy/astropy-cosmology-redshift.md
+      - Astropy Cosmology Showcase: module_showcase/astropy/astropy-cosmology-showcase.md
+      - Astropy Units and Constants: module_showcase/astropy/Astropy-Units-and-Constants.md
+      - Astropy Model Fitting: module_showcase/astropy/MidtermShowcaseLL.md
+      - Model Universe Age Astropy: module_showcase/astropy/model_universeAge_astropy
     - Harmonica:
+      - Point Gravity Modeling: module_showcase/harmonica/PointGravityModeling.md
     - Matplotlib:
+      - Graphing: module_showcase/matplotlib/graphing.md
+      - Plotting: module_showcase/matplotlib/week1.md
     - Mdtraj:
+      - Mdtraj Example: module_showcase/mdtraj/stavros_mdtraj.md
     - Numpy:
       - Numpy PH264: module_showcase/numpy/kai_week1_wiki.md
       - Numpy and Pandas: module_showcase/numpy/numpy_and_pandas.md
