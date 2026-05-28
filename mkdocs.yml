@@ -105,12 +105,12 @@ nav:
         - Gaussian Distribution: tutorials/computational_modeling/statistics/gaussian_distribution.md
         - Stat Model Overview: tutorials/computational_modeling/statistics/montza_wiki1_statModelOverview.md
   - PH264:
-    - Coding in Linux: tutorials/computational_modeling/ph264_info/coding_in_linux.md
-    - PH264 Summary : tutorials/computational_modeling/ph264_info/ph264_summary.md
-    - Python Libraries : tutorials/computational_modeling/ph264_info/python_libraries.md
-    - Python Dictionaries : tutorials/computational_modeling/ph264_info/python-dictionaries.md
-    - Misc PH264 1: "tutorials/computational_modeling/ph264_info/StefaniaF W1.md"
-    - Misc PH264 2: tutorials/computational_modeling/ph264_info/w1contrib.md
-    - Misc PH264 3: tutorials/computational_modeling/ph264_info/week1_wiki.md
-    - Misc PH264 4: tutorials/computational_modeling/ph264_info/week1_Wingate.md
-    - Misc Ph264 5: "tutorials/computational_modeling/ph264_info/Wiki Contribution Week 1.ipynb"
+    - Coding in Linux: tutorials/ph264_info/coding_in_linux.md
+    - PH264 Summary : tutorials/ph264_info/ph264_summary.md
+    - Python Libraries : tutorials/ph264_info/python_libraries.md
+    - Python Dictionaries : tutorials/ph264_info/python-dictionaries.md
+    - Misc PH264 1: "tutorials/ph264_info/StefaniaF W1.md"
+    - Misc PH264 2: tutorials/ph264_info/w1contrib.md
+    - Misc PH264 3: tutorials/ph264_info/week1_wiki.md
+    - Misc PH264 4: tutorials/ph264_info/week1_Wingate.md
+    - Misc Ph264 5: "tutorials/ph264_info/Wiki Contribution Week 1.ipynb"
