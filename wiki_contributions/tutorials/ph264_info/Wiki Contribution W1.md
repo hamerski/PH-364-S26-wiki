@@ -1,7 +1,6 @@
 ---
 tags: 
  - Computational Physics Description 
- - Stefania Feliciano
 ---
 
 In any field, we want to make use of our data. We want to extract useful information
