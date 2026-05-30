@@ -1,6 +1,8 @@
 ---
 tags:
  - Astropy
+ - Python library
+ - Astronomical tools
 ---
 
 When working on different astrophysics problems, Astropy proves to be useful. One module that is especially helpful is the constants library. This library allows for easy access to almost any constant that would be required when solving astrophysics problems. The documentation I used to guide me through this module is: https://docs.astropy.org/en/stable/constants/index.html. To install the astropy module, type 'pip install astropy' into your terminal. 

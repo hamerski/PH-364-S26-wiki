@@ -1,8 +1,8 @@
 ---
 tags:
-- Astropy
-- Python library
-- Model fitting
+ - Astropy
+ - Python library
+ - Data analysis
 ---
 
 # Fitting the Solar Spectrum with `astropy.modeling`

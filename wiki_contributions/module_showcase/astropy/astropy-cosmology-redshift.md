@@ -1,10 +1,9 @@
 ---
 tags:
  - Astropy
- - python library
- - numpy
- - Plotting
- - data-analysis
+ - Cosmology
+ - Python library
+ - Data analysis
 ---
 
 # Exploring Cosmology with Astropy (`astropy.cosmology`)

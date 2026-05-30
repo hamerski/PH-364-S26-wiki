@@ -1,7 +1,8 @@
 ---
 tags:
- - python library
  - Astropy
+ - Python library
+ - Data analysis
 ---
 
 ## Midterm Module Showcase: Astropy FITS (and sep)

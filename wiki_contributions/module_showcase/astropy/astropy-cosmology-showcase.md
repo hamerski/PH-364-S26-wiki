@@ -1,10 +1,9 @@
 ---
 tags:
  - Astropy
- - cosmology
- - redshift
- - lookback-time
- - comoving-distance
+ - Cosmology
+ - Python library
+ - Data analysis
 ---
 
 # Library: Astropy

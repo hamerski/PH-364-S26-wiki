@@ -1,7 +1,8 @@
 ---
 tags:
  - Astropy
- - python library
+ - Cosmology
+ - Python library
 ---
 
 Astropy.cosmology Module Showcase

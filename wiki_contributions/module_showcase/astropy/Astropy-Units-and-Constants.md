@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
  - Astropy
- - Importing Constants
- - applying units to constants
+ - Python library
+ - Astronomical tools
 ---
 
 
