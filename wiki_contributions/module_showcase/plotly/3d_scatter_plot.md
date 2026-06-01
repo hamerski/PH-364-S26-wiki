@@ -1,6 +1,6 @@
 ---
 tags:
- - Plotting
+ - plotting
 ---
 # Plotting Interactive Scatter Plots in 3D
 

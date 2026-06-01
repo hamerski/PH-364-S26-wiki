@@ -1,7 +1,7 @@
 ---
 tags:
  - for loops
- - Plotting
+ - plotting
  - Euler method 
 ---
 
