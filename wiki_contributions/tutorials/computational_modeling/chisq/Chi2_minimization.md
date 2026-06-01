@@ -61,7 +61,7 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_0.png)
+![png](../../../images/output_0_0.png)
     
 
 
@@ -71,13 +71,13 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_2.png)
+![png](../../../images/output_0_2.png)
     
 
 
 
     
-![png](output_0_3.png)
+![png](../../../images/output_0_3.png)
     
 
 
