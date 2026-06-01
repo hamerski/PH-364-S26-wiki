@@ -52,7 +52,7 @@ plt.ylim(top = 14.6);
 
 
     
-![png](../../model_universeAge_astropy.png)
+![png](../../images/model_universeAge_astropy.png)
     
 
 
