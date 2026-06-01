@@ -1,9 +1,9 @@
 ---
 tags:
  - Astropy
- - Python library
- - Cosmology
- - Data analysis
+ - python library
+ - cosmology
+ - data analysis
 ---
 
 Astropy is a Python library designed for working with astronomical data for astronomy and astrophysics purposes with ease of use in mind. One of the modules within this library is astropy.cosmology, a module made for calculations and working with cosmological data that is either input by the user or stored within the library itself. The module has a number of included “cosmology realizations” that contain information about the universe (Hubble constant, baryon density, matter density, etc.) from different published sources that reference data collected by space probes and satellites. The module also includes a Units and Equivalencies section with that has built-in typical units used in astronomy for different quantities, a section on reading, writing, and converting cosmological objects, and a module called traits that contains information about properties and behaviors related to different cosmological quantities such as scale factors or the Hubble parameter which provides information about the Hubble constant. 
