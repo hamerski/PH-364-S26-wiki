@@ -102,7 +102,7 @@ plt.imshow(rotated_img, interpolation='nearest', cmap='magma', origin='lower')
 plt.colorbar()
 ```
 
-![Alt Text](https://github.com/hamerski/PH-364-S26-wiki/blob/wiki_contributions/images/glow_estimation.png?raw=true)
+![Alt Text](https://github.com/hamerski/PH-364-S26-wiki/blob/main/wiki_contributions/images/glow_estimation.png?raw=true)
 
 The function ```bkg.rms``` is similar to ```bkg.back``` but instead is an estimation of the background noise's standard deviation. The "rms" in the function stands for "root mean square". I can also create a visualization of this.
 
