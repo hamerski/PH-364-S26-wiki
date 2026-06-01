@@ -1,10 +1,19 @@
 ---
-tags: 
+tags:
  - Astropy
- - Importing Constants
- - applying units to constants
+ - Python library
+ - Astronomical tools
 ---
 
+
+From Astropy-Constants.md contribution:
+
+When working on different astrophysics problems, Astropy proves to be useful. One module that is especially helpful is the constants library. This library allows for easy access to almost any constant that would be required when solving astrophysics problems. The documentation I used to guide me through this module is: https://docs.astropy.org/en/stable/constants/index.html. To install the astropy module, type 'pip install astropy' into your terminal.
+
+One of the main functionalities of Astropy is its constants library. By importing 'astropy.constants', you can have quick access to constants like the gravitational constant, the speed of light, and plancks constant. Being able to quickly use these constants allows for less variables in your code. Another useful functionality of Astropy is its ability to assign constants to variables. This makes for easy unit analysis, as well as changing between unit systems. For example, it makes switching from SI to CGS units simple, as well as switching from meters to nanometers.
+
+
+From Astropy-Units-and-Cosntants.md contribution:
 
 Using astropy you can import constants such as the gravitaitonal constant G, or the speed of light, c, that come predefined with names, units, magnitudes etc.
 Relevant commands:

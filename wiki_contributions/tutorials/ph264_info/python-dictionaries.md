@@ -4,6 +4,10 @@ tags:
   - data structure
 ---
 
+See Documentation: 
+
+[Python Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+
 ## Python Dictionaries
 
 A useful tool for programming is being able to look up information (a variable) by some identifier called a key. For example, a list or array allows you to store data in "bins" indexed by integers. To retrieve specific data from a list or array, you simply need to know the number of its position within the list. However, it can also be very useful to have a data structure where each piece of data is indexed by some other type of variable, like a string.

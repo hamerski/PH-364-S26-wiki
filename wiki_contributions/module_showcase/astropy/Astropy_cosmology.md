@@ -1,8 +1,10 @@
-----
-tags:
+---
+tags: 
  - Astropy
  - Astronomical tools
-----
+ - Cosmology
+ - Python library
+---
 
 ### Overview ###
 

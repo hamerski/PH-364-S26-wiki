@@ -1,7 +1,7 @@
 ---
 tags:
  - for loops
- - Plotting
+ - plotting
  - Euler method 
 ---
 
@@ -40,7 +40,7 @@ plt.ylabel("Vertical Position (m)")
 
 
     
-![png](output_1_1.png)
+![png](../../../images/output_1_1.png)
     
 
 

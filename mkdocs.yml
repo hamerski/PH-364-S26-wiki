@@ -2,7 +2,8 @@
 site_name: Class Wiki - PH364 Spring 2026
 site_url: !ENV [PREVIEW_URL, 'https://<your-username>.github.io/<your-repo>/']
 repo_url: https://github.com/hamerski/PH-364-S26-wiki
-edit_uri: edit/main/docs/
+edit_uri: edit/main/wiki_contributions/
+docs_dir: ./wiki_contributions
 
 theme:
   name: material
@@ -21,52 +22,95 @@ plugins:
 # Don't edit above this line #
 nav:
   - Home: home.md
-  - Tags: tags.md
-  - Contribution Guide: contribute.md
-  - Linking Pages: linking.md
-  - Style Guide: style_guide.md
-  - Git Commands: git-instructions.md
-  - Git Push Process: gitPushProcess.md
-  - Understanding Git: understanding-git.md
-  - Coding in Linux: coding_in_linux.md
-  - Wave Files: wavfileio.md
-  - Chi^2 Minimization: Chi2_minimization.md
-  - Chisqr Fitting: chisqr_fitting.md
-  - Chisquared Model Fit: chisquared_model_fit.md
-  - Reduced chisq: 'Reduced chisq.md'
-  - Reduced ChiSq Example: ReducedChiSqExample.md
-  - Using the Chi^2: 'Using the Chi^2.md'
-  - Model Fitting chi Squared.md: model_fitting_chi_squared.md
-  - Computational Physics Introduction: computationalphysicsintroduction.md
-  - Functions: Functions.md
-  - Gaussian Distribution: gaussian_distribution.md
-  - Graphing: graphing.md
-  - Model Fitting: Jack_ModelFitting.md
-  - Model Fitting: ModelFitting.md
-  - Local Preview: local_preview.md
-  - Modeling Exponential Decay: modelingexponentialdecay.md
-  - Stat Model Overview: montza_wiki1_statModelOverview.md
-  - Numerical Methods in Linear Algebra: 'Numerical Methods in Linear Algebra.md'
-  - Numerical Modeling of Exponential Decay: 'Numerical Modeling of Exponential Decay.md'
-  - Numpy and Pandas: numpy_and_pandas.md
-  - Plotting physical models in python: 'Plotting physical models in python.md'
-  - Plotting With Uncertainty: Plotting_With_Uncertainty.md
-  - Python Libraries: python_libraries.md
-  - python Dictionaries: python-dictionaries.md
-  - Solving ODEs Numerically in Python: solving_odes_numerically_in_python.md
-  - PlasmaPY: plasmapy.md
-  - Brief Plasmapy Info: brief_plasmapy_info.md
-  - Astropy and Sep: astropy_and_sep.md
-  - Astropy Cosmology: Astropy_cosmology.md
-  - Astropy Cosmology Module: Astropy_Cosmology_Module.md
-  - Astropy Constants: Astropy-Constants.md
-  - Astropy Cosmology Redshift: astropy-cosmology-redshift.md
-  - Astropy Cosmology Showcase: astropy-cosmology-showcase.md
-  - Astropy Units and Constants: Astropy-Units-and-Constants.md
-  - Model UniverseAge Astropy: model_universeAge_astropy.md 
-  - Quantum Toolbox: QuantumToolbox.md
-  - Qutip BlochSphere: Qutip_BlochSphere.md
-  - QuTip Harmonic Oscillators Overview: QuTip_Harmonic_Oscillators_Overview.md
-  - QuTip Schrodinger: qutip-schrodinger.md
-  - Solving TD Hamiltonians: Solving_TD_Hamiltonians.md
-  - mdtraj: stavros_mdtraj.md
+  - Wiki Maintenance:
+    - Tags: tutorials/wiki_maintenance/tags.md
+    - Contribution Guide: tutorials/wiki_maintenance/contribute.md
+    - Linking Pages: tutorials/wiki_maintenance/linking.md
+    - Style Guide: tutorials/wiki_maintenance/style_guide.md
+    - Local Preview: tutorials/wiki_maintenance/local_preview.md
+    - Wiki Template: tutorials/wiki_maintenance/wiki_template.md
+  - Git:
+    - Git Commands: tutorials/git/git-instructions.md
+    - Git Push Process: tutorials/git/gitPushProcess.md
+  - File Types:
+    - Wav Files: tutorials/file_types/wavfileio.md
+  - Module Showcases:
+    - Astropy:
+      - astropy and sep: module_showcase/astropy/astropy_and_sep.md
+      - Astropy cosmology: module_showcase/astropy/Astropy_cosmology.md
+      - Astropy Cosmology Module: module_showcase/astropy/Astropy_Cosmology_Module.md
+      - Astropy Constants: module_showcase/astropy/Astropy-Constants.md
+      - Astropy Cosmology Redshift: module_showcase/astropy/astropy-cosmology-redshift.md
+      - Astropy Cosmology Showcase: module_showcase/astropy/astropy-cosmology-showcase.md
+      - Astropy Units and Constants: module_showcase/astropy/Astropy-Units-and-Constants.md
+      - Astropy Model Fitting: module_showcase/astropy/MidtermShowcaseLL.md
+      - Model Universe Age Astropy: module_showcase/astropy/model_universeAge_astropy
+    - Harmonica:
+      - Point Gravity Modeling: module_showcase/harmonica/PointGravityModeling.md
+    - Matplotlib:
+      - Graphing: module_showcase/matplotlib/graphing.md
+      - Plotting: module_showcase/matplotlib/week1.md
+    - Mdtraj:
+      - Mdtraj Example: module_showcase/mdtraj/stavros_mdtraj.md
+    - Numpy:
+      - Numpy PH264: module_showcase/numpy/kai_week1_wiki.md
+      - Numpy and Pandas: module_showcase/numpy/numpy_and_pandas.md
+    - Plasmapy:
+      - Brief Plasmapy Info: module_showcase/plasmapy/brief_plasmapy_info.md
+      - Plasmapy: module_showcase/plasmapy/plasmapy.md
+    - Pychrono:
+      - PyChrono Introduction: module_showcase/pychrono/pychrono_introduction.md
+    - Qutip:
+      - Using QuTip for Tensors: module_showcase/qutip/MIDTERM.md
+      - Quantum Toolbox: module_showcase/qutip/QuantumToolbox.md
+      - Qutip Probability Distribution: "module_showcase/qutip/Qutip Probability Distribution module.ipynb"
+      - Qutip BlochSphere: module_showcase/qutip/Qutip_BlochSphere.md
+      - QuTip Harmonic Oscillators: module_showcase/qutip/QuTip_Harmonic_Oscillators_Midterm.ipynb
+      - QuTip Harmonic Oscillators Overview: module_showcase/qutip/QuTip_Harmonic_Oscillators_Overview.md
+      - Qutip Probability Distribution module: module_showcase/qutip/Qutip_Probability_Distribution_module.ipynb
+      - Qutip Schroedinger: module_showcase/qutip/qutip-schrodinger.md
+      - Solving TD Hamiltonians: module_showcase/qutip/Solving_TD_Hamiltonians.md
+    - Scipy:
+      - Linear Algebra Using SciPy: "module_showcase/scipy/Linear Algebra using SciPy.md"
+  - Computational Modeling:
+    - Chi Squared:
+      - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
+      - Chisqr Fitting: tutorials/computational_modeling/chisq/chisqr_fitting.md
+      - Chisquared Model Fit: tutorials/computational_modeling/chisq/chisquared_model_fit.md
+      - Reduced chisq: tutorials/computational_modeling/chisq/'Reduced chisq.md'
+      - Reduced ChiSq Example: tutorials/computational_modeling/chisq/ReducedChiSqExample.md
+      - Using the Chi^2: tutorials/computational_modeling/chisq/'Using the Chi^2.md'
+      - Model Fitting chi Squared.md: tutorials/computational_modeling/chisq/model_fitting_chi_squared.md
+      - Chi Squared: tutorials/computational_modeling/chisq/Wiki_ContLL.md
+    - Functions:
+      - Computational Physics Introduction: tutorials/computational_modeling/functions/computationalphysicsintroduction.md
+      - Functions: tutorials/computational_modeling/functions/Functions.md
+      - Function Reflection 1: tutorials/computational_modeling/functions/contribution.md
+      - Function Reflection 2: tutorials/computational_modeling/functions/mcgoughk_wiki1.md
+    - Model Fitting:
+      - My Experience with Computational Physics: tutorials/computational_modeling/model_fitting/BY_Wiki_Contribution_Week01.md
+      - Notes on functions from PH264: tutorials/computational_modeling/model_fitting/LDHWiki1.md
+      - Model Fitting Demo: tutorials/computational_modeling/model_fitting/ModelFitting.md
+      - Model Fitting: tutorials/computational_modeling/model_fitting/Model-Fitting.md
+      - Modelling Exponential Decay: tutorials/computational_modeling/model_fitting/modelingexponentialdecay.md
+      - Plotting Physical Models in Python: "tutorials/computational_modeling/model_fitting/Plotting physical models in python.md"
+      - Plotting With Uncertainty: tutorials/computational_modeling/model_fitting/Plotting_With_Uncertainty.md
+      - Model Fitting Reflection 1: tutorials/computational_modeling/model_fitting/speckman_Reflect_PH264.md
+      - Model Fitting Reflection 2: tutorials/computational_modeling/model_fitting/Stavros_PH264_reflection.md
+    - Numerical Methods:
+      - Numerical Methods in Linear Algebra: "tutorials/computational_modeling/numerical_methods/Numerical Methods in Linear Algebra.md"
+      - Numerical Modeling of Exponential Decay: tutorials/computational_modeling/numerical_methods/NumericalModelingofExponentialDecay.md
+      - Solving ODEs Numerically in Python: tutorials/computational_modeling/numerical_methods/solving_odes_numerically_in_python.md
+    - Statistics:
+        - Gaussian Distribution: tutorials/computational_modeling/statistics/gaussian_distribution.md
+        - Stat Model Overview: tutorials/computational_modeling/statistics/montza_wiki1_statModelOverview.md
+  - PH264:
+    - Coding in Linux: tutorials/ph264_info/coding_in_linux.md
+    - PH264 Summary : tutorials/ph264_info/ph264_summary.md
+    - Python Libraries : tutorials/ph264_info/python_libraries.md
+    - Python Dictionaries : tutorials/ph264_info/python-dictionaries.md
+    - Misc PH264 1: "tutorials/ph264_info/StefaniaF W1.md"
+    - Misc PH264 2: tutorials/ph264_info/w1contrib.md
+    - Misc PH264 3: tutorials/ph264_info/week1_wiki.md
+    - Misc PH264 4: tutorials/ph264_info/week1_Wingate.md
+    - Misc Ph264 5: "tutorials/ph264_info/Wiki Contribution Week 1.ipynb"

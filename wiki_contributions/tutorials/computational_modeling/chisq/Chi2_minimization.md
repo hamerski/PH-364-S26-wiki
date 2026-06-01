@@ -1,6 +1,7 @@
 ---
-tags: 
+tags:
  - model fitting
+ - chi-squared
 ---
 ```python
 #An important concept in computational physics is using numerical methods to analysize real world data with theoretical models
@@ -60,7 +61,7 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_0.png)
+![png](../../../images/output_0_0.png)
     
 
 
@@ -70,13 +71,13 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_2.png)
+![png](../../../images/output_0_2.png)
     
 
 
 
     
-![png](output_0_3.png)
+![png](../../../images/output_0_3.png)
     
 
 

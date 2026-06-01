@@ -1,3 +1,9 @@
+---
+tags:
+ - chi-squared
+ - model fitting
+---
+
 ```python
 #An important concept in computational physics is using numerical methods to analysize real world data with theoretical models
 #An example of a common practice in doing this is determining the most likely numerical value of a constant that is predidcted in a model when accounting for uncertainties
@@ -56,7 +62,7 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_0.png)
+![png](../../../images/output_0_0.png)
     
 
 
@@ -66,13 +72,13 @@ print("Our reduced chi square value for our best g is ",chired)
 
 
     
-![png](output_0_2.png)
+![png](../../../images/output_0_2.png)
     
 
 
 
     
-![png](output_0_3.png)
+![png](../../../images/output_0_3.png)
     
 
 
