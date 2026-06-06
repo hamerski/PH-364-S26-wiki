@@ -44,7 +44,8 @@ It is important to remember that "E" and "e" are two different things. Where "E"
 
 An important part in the following code is the if statement: `if np.max(np.abs(E_new - E)) < tol: return E_new`. This block of code allows the function to terminate when the iteration has reached a root that matches the desired tolerance. As I described previously, the Newton-Raphson Method's calculated roots will converge when either the true root is reached or when the specified tolerance has been achieved. The if statement fulfills the second condition. Given that the Newton-Raphson Method is just an approximation, it is not pertinent that the *exact* value of E is retrieved.
 
-`def solve_kepler(M, e, tol = 1e-12):
+`
+def solve_kepler(M, e, tol = 1e-12):
 
     E = M.copy() # duplicates M so that the original list is not modified
 
@@ -62,7 +63,8 @@ An important part in the following code is the if statement: `if np.max(np.abs(E
 
         E = E_new
 
-    return E`
+    return E
+`
 
 #### Initial Eccentric Anomaly
 
@@ -77,8 +79,7 @@ The two values `cosE` and `sinE` are then passed into Numpy's `arctan2` function
 
 Following this is another if statement block: `if E0 < 0: E0 += 2*np.pi`. Given that a planet is travelling on an ellipse, the angle must be normalized such that when the planet is less than 0, it is multiplied by a factor of $2\pi$.
 
-`# DETERMINE INITIAL ECCENTRIC ANOMALY
-
+`
 def initial_E(x0, y0, a, e):
 
     # rearrange x and y coordinate equations to directly solve for cos(E) and sin(E)
@@ -91,7 +92,8 @@ def initial_E(x0, y0, a, e):
     if E0 < 0: # normalizes E_0 so it is always positive (if E_0 is already positive, skip this block)
         E0 += 2*np.pi
 
-    return E0`
+    return E0
+`
 
 #### Final Eccentric Anomaly
 
@@ -105,8 +107,7 @@ We still cannot stop here with M, however. There is one last thing I have to do 
 
 Finally, we can calculate E for real. I use the `solve_kepler` function I previously defined and pass values of "M" and "e" to it. Now all that is left to be done is to call the functions.
 
-`# COMPUTE ORBIT POSITION
-
+`
 def orbit_position(t, a, e, period, E0):
 
     M0 = E0 - e*np.sin(E0) # substitutes E_0 for E to find the initial mean anomaly (aka mean anomaly at epoch)
@@ -119,7 +120,8 @@ def orbit_position(t, a, e, period, E0):
 
     E = solve_kepler(M, e) # solves eccentricity
 
-    return E`
+    return E
+`
 
 #### Calling the Functions
 
@@ -127,10 +129,12 @@ For the purposes of this code review, I want to just find the eccentric anomaly 
 
 I only call the functions `initial_E` and `orbit_position` because the `solve_kepler` function is already called within `orbit_position`. I can specify my x0, y0, a, e, t, period, and E0 values based off of which planet I am trying to analyze. Changing the "t" parameter allows me to adjust what year I want to see the eccentric anomaly for. Currently, as my t is set to 1, I can see the orbital anomaly of the Earth after 1 full orbit. The returned value is approximately 2 radians. It may seem confusing why, after one full year, the planet is not at "0 radians". This is because the specified coordinates are not at 0 radians, so the planet is simply stopping where we told it to begin.
 
-`E0 = initial_E(x0 = -0.1773487970879621, y0 = 0.9622255911830275, a = 1.000, e = 0.0167)
+`
+E0 = initial_E(x0 = -0.1773487970879621, y0 = 0.9622255911830275, a = 1.000, e = 0.0167)
 E = orbit_position(t = 1, a = 1.000, e = 0.0167, period = 1.000, E0 = E0)
 
-print(E)`
+print(E)
+`
 
 Returns: 1.736203308404034
 
