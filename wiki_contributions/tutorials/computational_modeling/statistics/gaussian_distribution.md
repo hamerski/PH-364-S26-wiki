@@ -1,7 +1,7 @@
 ---
 tags: 
  - statistics
- - Plotting
+ - plotting
 ---
 
 # Gaussian Distribution

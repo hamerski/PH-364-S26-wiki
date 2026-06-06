@@ -8,7 +8,7 @@ tags:
 
 ## Cheat-Sheet
 
-![git-cheat-sheet](https://github.com/hamerski/PH-364-S26-wiki/blob/main/docs/images/Git-Commands-Cheat-Sheet.png?raw=true)
+![git-cheat-sheet](https://github.com/hamerski/PH-364-S26-wiki/blob/main/wiki_contributions/images/Git-Commands-Cheat-Sheet.png?raw=true)
 
 Using the same conventions as them variables will be indicated in angle brakets: \<variable\>
 
