@@ -119,4 +119,6 @@ With all the components of the visualization created, it simply needs to be show
 display(ui, out)
 ```
 
+The displayed user interface and graph will look like the following image.
+
 ![Vertical Position vs. Time](../../../images/Interactive_Visualizatios_Output.png)
