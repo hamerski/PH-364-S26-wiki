@@ -77,7 +77,7 @@ nav:
       - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
       - Chisqr Fitting: tutorials/computational_modeling/chisq/chisqr_fitting.md
       - Chisquared Model Fit: tutorials/computational_modeling/chisq/chisquared_model_fit.md
-      - Reduced chisq: tutorials/computational_modeling/chisq/'Reduced chisq.md'
+      - Reduced chisq: tutorials/computational_modeling/chisq/'Reduced ChiSq.md'
       - Reduced ChiSq Example: tutorials/computational_modeling/chisq/ReducedChiSqExample.md
       - Using the Chi^2: tutorials/computational_modeling/chisq/'Using the Chi^2.md'
       - Model Fitting chi Squared.md: tutorials/computational_modeling/chisq/model_fitting_chi_squared.md
@@ -85,13 +85,13 @@ nav:
     - Functions:
       - Computational Physics Introduction: tutorials/computational_modeling/functions/computationalphysicsintroduction.md
       - Functions: tutorials/computational_modeling/functions/Functions.md
-      - Function Reflection 1: tutorials/computational_modeling/functions/contribution.md
       - Function Reflection 2: tutorials/computational_modeling/functions/mcgoughk_wiki1.md
+      - Animation Tutorial: tutorials/computational_modeling/functions/Animation_tutorial.md
+      - Fourier Transform: tutorials/computational_modeling/functions/Fourier_Transform.md
     - Model Fitting:
       - My Experience with Computational Physics: tutorials/computational_modeling/model_fitting/BY_Wiki_Contribution_Week01.md
       - Notes on functions from PH264: tutorials/computational_modeling/model_fitting/LDHWiki1.md
       - Model Fitting Demo: tutorials/computational_modeling/model_fitting/ModelFitting.md
-      - Model Fitting: tutorials/computational_modeling/model_fitting/Model-Fitting.md
       - Modelling Exponential Decay: tutorials/computational_modeling/model_fitting/modelingexponentialdecay.md
       - Plotting Physical Models in Python: "tutorials/computational_modeling/model_fitting/Plotting physical models in python.md"
       - Plotting With Uncertainty: tutorials/computational_modeling/model_fitting/Plotting_With_Uncertainty.md
@@ -104,13 +104,16 @@ nav:
     - Statistics:
         - Gaussian Distribution: tutorials/computational_modeling/statistics/gaussian_distribution.md
         - Stat Model Overview: tutorials/computational_modeling/statistics/montza_wiki1_statModelOverview.md
+    - Library Overview:
+        - Library Overview: "tutorials/computational_modeling/Library Overview/Library_Overview.md"
   - PH264:
     - Coding in Linux: tutorials/ph264_info/coding_in_linux.md
     - PH264 Summary : tutorials/ph264_info/ph264_summary.md
     - Python Libraries : tutorials/ph264_info/python_libraries.md
     - Python Dictionaries : tutorials/ph264_info/python-dictionaries.md
-    - Misc PH264 1: "tutorials/ph264_info/StefaniaF W1.md"
+    - Misc PH264 1: "tutorials/ph264_info/Wiki Contribution W1.md"
     - Misc PH264 2: tutorials/ph264_info/w1contrib.md
     - Misc PH264 3: tutorials/ph264_info/week1_wiki.md
     - Misc PH264 4: tutorials/ph264_info/week1_Wingate.md
     - Misc Ph264 5: "tutorials/ph264_info/Wiki Contribution Week 1.ipynb"
+    - Applying Linear Algebra: tutorials/ph264_info/applying-linear-algebra.md

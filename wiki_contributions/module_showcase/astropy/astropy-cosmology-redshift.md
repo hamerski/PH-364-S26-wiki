@@ -50,7 +50,10 @@ plt.ylabel("Luminosity Distance")
 plt.title("Luminosity Distance vs Redshift")
 plt.legend()
 plt.show()
+```
+![Luminosity Distance vs Redshift](../../images/luminosity_distance_vs_redshift.png)
 
+```python
 plt.figure() #age of universe vs redshift
 plt.plot(z,age_planck,label="Planck18")
 plt.plot(z,age_wmap, "--",label="WMAP9")
@@ -59,7 +62,10 @@ plt.ylabel("Age of Universe")
 plt.title("Age of Universe vs Redshift")
 plt.legend()
 plt.show()
+```
+![Age of Universe vs Redshift](../../images/age_of_universe_vs_redshift.png)
 
+```python
 plt.figure() #Hubble parameter vs redshift
 plt.plot(z,H_planck,label="Planck18")
 plt.plot(z,H_wmap, "--",label="WMAP9")
@@ -69,6 +75,8 @@ plt.title("Expansion Rate vs Redshift")
 plt.legend()
 plt.show()
 ```
+![Expansion Rate vs Redshift](../../images/expansion_rate_vs_redshift.png)
+
 ## Explanation
 I used Planck18 and WMAP9 since they are 2 different built in cosmological models within astropy. They are both based off of real observational data, but they use different values for parameters. So, you can compare how changing the model changes the physical relationship of redshift. I first made an array of redshift values from 0 to 5, 0 represents current universe, and higher than that represents objects further away and back in time. I then calculated three things. First, the luminosity distance, which tells us how far away an object seems to be based on the brightness. The plot shows that as redshift increases, the luminosity distance increases quickly. The second thing was the age of the universe. This tells us how old the universe was when the light was emitted, and as the redshift increases, the age decreases. So, we are looking into the history of the universe. The last thing was the Hubble parameter. This tells us the expansion rate of the universe at different redshifts, and the plot shows higher expansion rate at high redshift.
 
@@ -78,4 +86,5 @@ So overall, this shows that redshift itself is not enough to know the age or dis
 - Redshift alone doesn't determine distance or age  
 - Cosmological models are needed to interpret observations  
 - Different models give similar trends but different values  
-## For more see on astropy Cosmology see [Astropy_Cosmology_Module](Astropy_Cosmology_Module.md),[Astropy_cosmology](Astropy_cosmology.md),[astropy-cosmology-showcase](astropy-cosmology-showcase.md)
+
+For more see on astropy Cosmology see [Astropy_Cosmology_Module](Astropy_Cosmology_Module.md), [Astropy_cosmology](Astropy_cosmology.md), and [astropy-cosmology-showcase](astropy-cosmology-showcase.md).
