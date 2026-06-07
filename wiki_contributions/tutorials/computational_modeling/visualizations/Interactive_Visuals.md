@@ -119,10 +119,4 @@ With all the components of the visualization created, it simply needs to be show
 display(ui, out)
 ```
 
-
-    VBox(children=(IntSlider(value=2, description='n', max=6, min=1), IntSlider(value=1, description='$\\ell$', ma…
-
-
-
-    Output(outputs=({'output_type': 'display_data', 'data': {'text/plain': '<Figure size 700x600 with 2 Axes>', 'i…
-
+![Vertical Position vs. Time](../../../images/Interactive_Visualizatios_Output.png)
