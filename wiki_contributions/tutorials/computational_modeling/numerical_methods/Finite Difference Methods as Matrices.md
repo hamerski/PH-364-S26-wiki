@@ -1,3 +1,9 @@
+---
+tags:
+ - Numerical methods
+ - differential equations
+---
+
 # Finite-Difference Methods as Matrices
 
 ## Introduction
