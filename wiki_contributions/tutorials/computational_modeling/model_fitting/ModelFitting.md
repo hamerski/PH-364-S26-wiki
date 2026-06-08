@@ -1,7 +1,7 @@
 ---
 tags: 
  - model fitting
- - Plotting
+ - plotting
 ---
 
 

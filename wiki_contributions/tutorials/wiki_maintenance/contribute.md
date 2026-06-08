@@ -45,32 +45,48 @@ Examples of this from existing tags are: "model fitting", "cosmology", "python f
 
 Rules are made for the sake of limiting duplicate tags where possible.
 
+
 ## Commit Message Guidelines
 
-We will use Conventional Commits when writing a commit message. This standardizes the commit messages for ease of understanding changes and additions to the repository. Preface your commit message with a "type" as described below. For more information on Conventional Commits, see https://www.conventionalcommits.org/en/v1.0.0/.
+We will use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) when writing a commit message. This standardizes the commit messages for ease of understanding changes and additions to the repository. Structure your commit message as follows: 
+```
+<type>[optional scope]: <description>
 
+[optional body]
+
+[optional footer(s)]
+```
+
+For the "type" field, here are the most common options:
 - fix: the commit fixes a bug
 - feat: the commit adds a new feature to the repository
 - style: the commit changes the formatting
 - docs: the commit adds or updates documatation
 
-Messages should be concise and contain information about what your commit includes. The message should not include useless information such as "Wiki contribution week 1". Instead, a message could be "fix: add example of using a Chi Squared test."
+The title/description line should be concise, only contain information about what your commit includes, and in the imperative mood (eg. "add" instead of "added"). It should not include useless information such as "Wiki contribution week 1". Instead, a message could be "fix: add example of using a Chi Squared test." Also note that the maximum character of the title line is 50 characters, otherwise it gets truncated and overflows into the body.
 
+The body is optional and has less conventions, but a general rule of thumb is to include the "what" in the title line, and the "why" in the body. There is no character limit, but GitHub will wrap lines at 72 characters. 
 
-<!--
-## Adding a Page
-- Create a branch to work in on your machine.
-- Add a Markdown page under docs/ or a notebook under docs/notebooks/.
-%- Update mkdocs.yml by adding your page to the nav section like so:
-%```
-%nav:
-%  - Page Title: page_file.md
-%```
-%this will add a link to the document in the sidebar.
+### Example Messages
+- `docs: add example of Chi Squared test`
+- `docs: add article on numerical differentiation`
+- `fix: update image reference links in ipynb files`
+- `feat: add author attribution feature utilizing git blame`
+- `style: apply new color scheme`
 
-- Commit & push your branch to save your changes to the github server.
-- When you're ready to publish your page to the class wiki create a pull-request (PR).
-- After your PR is merged it will automatically update the website with your changes.
-- Check that the page has been added or updated properly.
--->
+### Adding a Multiline Commit Message
 
+You should also notice that this commit message format has multiple lines. To write a multiline commit message, here are three methods:
+
+1. Chain multiple `-m` flags together in the `git commit` command. For example, `git commit -m "docs: add commit message guidelines" -m "Added commit message guidelines to contribute.md."`will place the first quote in the title/desctiption, and the second quote in the body. 
+2. Run the `git commit` without the `-m` flag. This automatically opens the default text editor in your command line, from which you can edit the commit message the same way you edit a file.
+3. Hit enter on the commit message without closing the quote. This allows you to write more lines in the command line directly. Your terminal should look something like this:
+
+```
+git commit -m "docs: add commit message guidelines
+
+- Added commit message guidelines to contribute.md based on Conventional Commits
+- Resolved Issue #45 assigned to Group 3"
+```
+
+For more information on Conventional Commits, see <https://www.conventionalcommits.org/en/v1.0.0/>. 

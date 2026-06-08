@@ -1,7 +1,7 @@
 ---
 tags:
   - computational physics
-  - exponential decay
+  - numerical modeling of exponential decay
   - modeling
 ---
 ---

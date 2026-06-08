@@ -12,7 +12,7 @@ jupyter:
     name: python3
 ---
 
-This is a couple things in the MDTraj library and the hydrogen bonding module which can be located in the analysis references in the drop down menu (https://mdtraj.org/1.9.4/analysis.html). This library is used for tracking molecular trajectories which is the movement of atoms interating (for a fixed period of time) showing how the system evolves. A trajectory file (examples found here https://github.com/mdtraj/mdtraj/tree/master/docs/notebook-examples) is uploaded and stores fields that describe the system over time. The  specific module idenitifies hydrogen bonds and then calculates the distance of said bonds. One example of this library being used it
+This is a couple things in the MDTraj library and the hydrogen bonding module which can be located in the analysis references in the drop down menu (https://mdtraj.org/1.9.4/analysis.html). This library is used for tracking molecular trajectories which is the movement of atoms interating (for a fixed period of time) showing how the system evolves. A trajectory file (examples found here https://github.com/mdtraj/mdtraj/tree/master/docs/notebook-examples) is uploaded and stores fields that describe the system over time. There are also exapmples of ways to use the git hub in her but they are hard to get to. The specific module idenitifies hydrogen bonds and then calculates the distance of said bonds. One example of this library being used it
 
 ```python
 import mdtraj as md
@@ -27,7 +27,7 @@ t = md.load_pdb('http://www.rcsb.org/pdb/files/2EQQ.pdb')
 print(t)
 ```
 
-Next, call the function md.baker_hubbard to identity the hydrogen bonds and then print out the list of atoms
+Next, call the function md.baker_hubbard to identity the hydrogen bonds and then print out the list of atoms (this is not a very separated out list)
 
 ```python
 hbonds = md.baker_hubbard(t, periodic=False)
@@ -37,7 +37,7 @@ for hbond in hbonds:
      print(label(hbond))
 ```
 
-Then we can look at the distances with a historgram,
+Then we can look at the distances with a historgram, The histgram shows the frequency that each hydrogen bond accours and at what distance within the trajectory in order to see what different hydrogen bonds are occuring. 
 
 ```python
 da_distances = md.compute_distances(t, hbonds[:, [0,2]], periodic=False)
@@ -50,4 +50,3 @@ plt.ylabel('Freq');
 plt.xlabel('distance [nm]')
 ```
 
-This starts to get at the physics question I am asking. 
