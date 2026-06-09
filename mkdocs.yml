@@ -50,6 +50,7 @@ nav:
     - Matplotlib:
       - Graphing: module_showcase/matplotlib/graphing.md
       - Plotting: module_showcase/matplotlib/week1.md
+      - Matplotlib Animations: module_showcase/matplotlib/Keller-McGough-Code-Review.ipynb
     - Mdtraj:
       - Mdtraj Example: module_showcase/mdtraj/stavros_mdtraj.md
     - Numpy:
@@ -72,6 +73,10 @@ nav:
       - Solving TD Hamiltonians: module_showcase/qutip/Solving_TD_Hamiltonians.md
     - Scipy:
       - Linear Algebra Using SciPy: "module_showcase/scipy/Linear Algebra using SciPy.md"
+      - ScipyFFT: module_showcase/scipy/ScipyFFT.md
+      - ODEint: module_showcase/scipy/odeint_how_to_use.ipynb
+    - Plotly:
+      - Plotly: module_showcase/plotly/plotly_documentation.md
   - Computational Modeling:
     - Chi Squared:
       - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
@@ -88,6 +93,9 @@ nav:
       - Function Reflection 2: tutorials/computational_modeling/functions/mcgoughk_wiki1.md
       - Animation Tutorial: tutorials/computational_modeling/functions/Animation_tutorial.md
       - Fourier Transform: tutorials/computational_modeling/functions/Fourier_Transform.md
+      - Newton Raphson Method: tutorials/computational_modeling/functions/newton_raphson_method.md 
+      - Nested Loops Monte Carlo Sim: tutorials/computational_modeling/numerical_methods/NestedLoopsMonteCarloSimulation.md
+      - Numpy Random Poisson: tutorials/computational_modeling/statistics/CodeReview.md
     - Model Fitting:
       - My Experience with Computational Physics: tutorials/computational_modeling/model_fitting/BY_Wiki_Contribution_Week01.md
       - Notes on functions from PH264: tutorials/computational_modeling/model_fitting/LDHWiki1.md
