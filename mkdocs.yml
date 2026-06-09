@@ -59,11 +59,13 @@ nav:
       - Graphing: module_showcase/matplotlib/graphing.md
       - Plotting: module_showcase/matplotlib/week1.md
       - Matplotlib Animations: module_showcase/matplotlib/Keller-McGough-Code-Review.ipynb
+      - Function Animation Review: module_showcase/matplotlib/FuncAnimation_Review.ipynb
     - Mdtraj:
       - Mdtraj Example: module_showcase/mdtraj/stavros_mdtraj.md
     - Numpy:
       - Numpy PH264: module_showcase/numpy/kai_week1_wiki.md
       - Numpy and Pandas: module_showcase/numpy/numpy_and_pandas.md
+      - Linalg: module_showcase/numpy/linalg.ipynb
     - Plasmapy:
       - Brief Plasmapy Info: module_showcase/plasmapy/brief_plasmapy_info.md
       - Plasmapy: module_showcase/plasmapy/plasmapy.md
@@ -83,8 +85,10 @@ nav:
       - Linear Algebra Using SciPy: "module_showcase/scipy/Linear Algebra using SciPy.md"
       - ScipyFFT: module_showcase/scipy/ScipyFFT.md
       - ODEint: module_showcase/scipy/odeint_how_to_use.ipynb
+      - Laguerre PolySphere: module_showcase/scipy/LaguerrePolySphereHarm.ipynb
     - Plotly:
       - Plotly: module_showcase/plotly/plotly_documentation.md
+      - 3D Plotly Animations: module_showcase/plotly/3d_plotly_animations.md
   - Computational Modeling:
     - Chi Squared:
       - Chi^2 Minimization: tutorials/computational_modeling/chisq/Chi2_minimization.md
@@ -117,11 +121,16 @@ nav:
       - Numerical Methods in Linear Algebra: "tutorials/computational_modeling/numerical_methods/Numerical Methods in Linear Algebra.md"
       - Numerical Modeling of Exponential Decay: tutorials/computational_modeling/numerical_methods/NumericalModelingofExponentialDecay.md
       - Solving ODEs Numerically in Python: tutorials/computational_modeling/numerical_methods/solving_odes_numerically_in_python.md
+      - Finite Diff Methods as Matrices: "tutorials/computational_modeling/numerical_methods/Finite Difference Methods as Matrices.md"
+      - Using Scipy to solve eigenvalues: "tutorials/computational_modeling/numerical_methods/Using scipy to solve eigenvalues.ipynb"
     - Statistics:
         - Gaussian Distribution: tutorials/computational_modeling/statistics/gaussian_distribution.md
         - Stat Model Overview: tutorials/computational_modeling/statistics/montza_wiki1_statModelOverview.md
     - Library Overview:
         - Library Overview: "tutorials/computational_modeling/Library Overview/Library_Overview.md"
+    - Visualizations:
+        - Interactive Visuals: tutorials/computational_modeling/visualizations/Interactive_Visuals.md
+        - Review Audio: tutorials/computational_modeling/visualizations/reviewAudio.md
   - PH264:
     - Coding in Linux: tutorials/ph264_info/coding_in_linux.md
     - PH264 Summary : tutorials/ph264_info/ph264_summary.md
