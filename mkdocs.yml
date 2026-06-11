@@ -66,6 +66,8 @@ nav:
       - Numpy PH264: module_showcase/numpy/kai_week1_wiki.md
       - Numpy and Pandas: module_showcase/numpy/numpy_and_pandas.md
       - Linalg: module_showcase/numpy/linalg.ipynb
+      - Pandas Data Cleaning: module_showcase/numpy/pandas-data-cleaning.ipynb
+      - Numpy Matrix Sim: module_showcase/numpy/Feli_S_IndividualCodeReview.ipynb
     - Plasmapy:
       - Brief Plasmapy Info: module_showcase/plasmapy/brief_plasmapy_info.md
       - Plasmapy: module_showcase/plasmapy/plasmapy.md
@@ -86,6 +88,8 @@ nav:
       - ScipyFFT: module_showcase/scipy/ScipyFFT.md
       - ODEint: module_showcase/scipy/odeint_how_to_use.ipynb
       - Laguerre PolySphere: module_showcase/scipy/LaguerrePolySphereHarm.ipynb
+    - Statistics:
+      - Statistics Module: module_showcase/statistics/StatisticsCodeReview.ipynb
     - Plotly:
       - Plotly: module_showcase/plotly/plotly_documentation.md
       - 3D Plotly Animations: module_showcase/plotly/3d_plotly_animations.md
@@ -107,6 +111,7 @@ nav:
       - Fourier Transform: tutorials/computational_modeling/functions/Fourier_Transform.md
       - Newton Raphson Method: tutorials/computational_modeling/functions/newton_raphson_method.md 
       - Nested Loops Monte Carlo Sim: tutorials/computational_modeling/numerical_methods/NestedLoopsMonteCarloSimulation.md
+      - Nested Loops: tutorials/computational_modeling/numerical_methods/Nested_Loops.ipynb
       - Numpy Random Poisson: tutorials/computational_modeling/statistics/CodeReview.md
     - Model Fitting:
       - My Experience with Computational Physics: tutorials/computational_modeling/model_fitting/BY_Wiki_Contribution_Week01.md
